@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1001f435d9a93ed1d2f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "hw3_interfaces__py",
+					"jsonFile" : "directory-hw3_interfaces__py-7d7a449cb325c0627d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/hw3_interfaces/hw3_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "hw3_interfaces__rs",
+					"jsonFile" : "directory-hw3_interfaces__rs-39b368b93e5050d4a0f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/hw3_interfaces/hw3_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "hw3_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hw3_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hw3_interfaces_egg-4a71aa6ecdbc1341d00c.json",
+					"name" : "ament_cmake_python_build_hw3_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hw3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hw3_interfaces-ef3b25bd17757a751ec0.json",
+					"name" : "ament_cmake_python_copy_hw3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces-856a63339cb55e6ef834.json",
+					"name" : "hw3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__cpp-ea719b62bb23f7d07f88.json",
+					"name" : "hw3_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hw3_interfaces__py::@5e1d4e5c67f48d8be347",
+					"jsonFile" : "target-hw3_interfaces__py-90c2805390d7b350df91.json",
+					"name" : "hw3_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_generator_c-4d9c27f00d5c30c7c379.json",
+					"name" : "hw3_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_generator_py-afadafc799e0e461903b.json",
+					"name" : "hw3_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_generator_type_description-72860db284f8815d32fd.json",
+					"name" : "hw3_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_c-828ed746b08aae1b50ce.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_cpp-55e3a2ff02841aa617f9.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_fastrtps_c-ee4ead316ed341894bbf.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_fastrtps_cpp-6223173ab4fe7751f483.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_introspection_c-ab043840157bef2433d2.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces__rosidl_typesupport_introspection_cpp-0e0c1d903bd7bddef48a.json",
+					"name" : "hw3_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hw3_interfaces__rs::@217c27d81c7e605b53a2",
+					"jsonFile" : "target-hw3_interfaces__rs-543ba52847d7b04f8b2d.json",
+					"name" : "hw3_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces_s__rosidl_typesupport_c-eef3d2659ff92d2e125e.json",
+					"name" : "hw3_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces_s__rosidl_typesupport_fastrtps_c-9012a50ea3ea4b620013.json",
+					"name" : "hw3_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces_s__rosidl_typesupport_introspection_c-c31e14e99e1fc7ae3e99.json",
+					"name" : "hw3_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3_interfaces_uninstall-7e27d22c25398fdf79b9.json",
+					"name" : "hw3_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca08e2293b14d17b60a0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/ros2_ws/build/hw3_interfaces",
+		"source" : "/home/user/ros2_ws/src/hw3/hw3_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

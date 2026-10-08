@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_Feedback",
+      "fields": [
+        {
+          "name": "number",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "power",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_Feedback",
+      "hash_string": "RIHS01_9c29c3895b286e0a352aef62badcae0c3ee59fd7549da6652ea69ad6e150ec48"
+    }
+  ]
+}

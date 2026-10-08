@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (chemical_reaction_sim) JobQueued: {'identifier': 'chemical_reaction_sim', 'dependencies': OrderedDict({'reaction_interfaces': '/home/user/ros2_ws/install/reaction_interfaces', 'chemical_reaction_sim': '/home/user/ros2_ws/install/chemical_reaction_sim'})}
+[0.000676] (chemical_reaction_sim) JobStarted: {'identifier': 'chemical_reaction_sim'}
+[0.005160] (chemical_reaction_sim) JobEnded: {'identifier': 'chemical_reaction_sim', 'rc': 1}
+[0.015653] (-) EventReactorShutdown: {}

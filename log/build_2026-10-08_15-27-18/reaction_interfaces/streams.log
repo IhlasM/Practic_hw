@@ -1,0 +1,10 @@
+[0.033s] Invoking command in '/home/user/ros2_ws/build/reaction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/project_1/reaction_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/reaction_interfaces
+[0.118s] [33mCMake Warning:
+[0.118s]   Ignoring extra path from command line:
+[0.118s] 
+[0.118s]    "/home/user/ros2_ws/src/project_1/reaction_interfaces"
+[0.118s] 
+[0.119s] [0m
+[0.119s] [0mCMake Error: The source directory "/home/user/ros2_ws/src/project_1/reaction_interfaces" does not appear to contain CMakeLists.txt.
+[0.119s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.246s] Invoked command in '/home/user/ros2_ws/build/reaction_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/project_1/reaction_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/reaction_interfaces

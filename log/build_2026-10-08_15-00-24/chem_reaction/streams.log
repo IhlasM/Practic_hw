@@ -1,0 +1,23 @@
+[0.841s] Invoking command in '/home/user/ros2_ws/src/project/chem_reaction': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/chem_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chem_reaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chem_reaction build --build-base /home/user/ros2_ws/build/chem_reaction/build install --record /home/user/ros2_ws/build/chem_reaction/install.log --install-scripts $base/lib/chem_reaction --single-version-externally-managed install_data
+[1.041s] running egg_info
+[1.057s] writing ../../../build/chem_reaction/chem_reaction.egg-info/PKG-INFO
+[1.058s] writing dependency_links to ../../../build/chem_reaction/chem_reaction.egg-info/dependency_links.txt
+[1.058s] writing entry points to ../../../build/chem_reaction/chem_reaction.egg-info/entry_points.txt
+[1.058s] writing requirements to ../../../build/chem_reaction/chem_reaction.egg-info/requires.txt
+[1.058s] writing top-level names to ../../../build/chem_reaction/chem_reaction.egg-info/top_level.txt
+[1.094s] reading manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+[1.094s] writing manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+[1.094s] running build
+[1.095s] running build_py
+[1.095s] running install
+[1.100s] running install_lib
+[1.115s] running install_data
+[1.115s] running install_egg_info
+[1.131s] removing '/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info' (and everything under it)
+[1.131s] Copying ../../../build/chem_reaction/chem_reaction.egg-info to /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info
+[1.132s] running install_scripts
+[1.235s] Installing collision_detector script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+[1.235s] Installing turtle_motion script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+[1.235s] Installing turtle_setup script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+[1.236s] writing list of installed files to '/home/user/ros2_ws/build/chem_reaction/install.log'
+[1.267s] Invoked command in '/home/user/ros2_ws/src/project/chem_reaction' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/chem_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chem_reaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chem_reaction build --build-base /home/user/ros2_ws/build/chem_reaction/build install --record /home/user/ros2_ws/build/chem_reaction/install.log --install-scripts $base/lib/chem_reaction --single-version-externally-managed install_data

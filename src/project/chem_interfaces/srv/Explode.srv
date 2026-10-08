@@ -1,0 +1,6 @@
+# Request: какие черепахи телепортировать в случайные точки
+string[] turtles
+---
+# Response
+bool success
+int32 teleported    # сколько черепах телепортировано

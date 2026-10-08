@@ -1,0 +1,8 @@
+setup.py
+hw3_interfaces/__init__.py
+hw3_interfaces.egg-info/PKG-INFO
+hw3_interfaces.egg-info/SOURCES.txt
+hw3_interfaces.egg-info/dependency_links.txt
+hw3_interfaces.egg-info/top_level.txt
+hw3_interfaces/srv/__init__.py
+hw3_interfaces/srv/_check_anagram.py

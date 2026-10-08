@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chem_interfaces/srv/Explode.srv
+// generated code does not contain a copyright notice
+
+
+module chem_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: какие черепахи телепортировать в случайные точки")
+    struct Explode_Request {
+      sequence<string> turtles;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Explode_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "сколько черепах телепортировано")
+      int32 teleported;
+    };
+  };
+};

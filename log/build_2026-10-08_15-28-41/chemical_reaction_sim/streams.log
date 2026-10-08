@@ -1,0 +1,22 @@
+[0.845s] Invoking command in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/reaction_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chemical_reaction_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chemical_reaction_sim/lib/python3.12/site-packages:/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chemical_reaction_sim build --build-base /home/user/ros2_ws/build/chemical_reaction_sim/build install --record /home/user/ros2_ws/build/chemical_reaction_sim/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.051s] creating ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info
+[1.066s] writing ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/dependency_links.txt
+[1.066s] writing entry points to ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/entry_points.txt
+[1.066s] writing requirements to ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/requires.txt
+[1.067s] writing top-level names to ../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/top_level.txt
+[1.067s] writing manifest file '../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/SOURCES.txt'
+[1.098s] reading manifest file '../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/SOURCES.txt'
+[1.099s] writing manifest file '../../../build/chemical_reaction_sim/chemical_reaction_sim.egg-info/SOURCES.txt'
+[1.099s] running build
+[1.099s] running build_py
+[1.099s] creating /home/user/ros2_ws/build/chemical_reaction_sim/build
+[1.100s] creating /home/user/ros2_ws/build/chemical_reaction_sim/build/lib
+[1.100s] creating /home/user/ros2_ws/build/chemical_reaction_sim/build/lib/chemical_reaction_sim
+[1.101s] copying chemical_reaction_sim/reaction_node.py -> /home/user/ros2_ws/build/chemical_reaction_sim/build/lib/chemical_reaction_sim
+[1.101s] copying chemical_reaction_sim/turtle_action_server.py -> /home/user/ros2_ws/build/chemical_reaction_sim/build/lib/chemical_reaction_sim
+[1.101s] copying chemical_reaction_sim/__init__.py -> /home/user/ros2_ws/build/chemical_reaction_sim/build/lib/chemical_reaction_sim
+[1.102s] running install
+[1.102s] error: error in setup.cfg: command 'install' has no such option 'install_dir'
+[1.122s] Invoked command in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim' returned '1': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/reaction_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chemical_reaction_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chemical_reaction_sim/lib/python3.12/site-packages:/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chemical_reaction_sim build --build-base /home/user/ros2_ws/build/chemical_reaction_sim/build install --record /home/user/ros2_ws/build/chemical_reaction_sim/install.log --single-version-externally-managed install_data

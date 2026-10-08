@@ -1,0 +1,6 @@
+source;share/chem_reaction/hook/pythonpath.ps1
+source;share/chem_reaction/hook/pythonpath.dsv
+source;share/chem_reaction/hook/pythonpath.sh
+source;share/chem_reaction/hook/ament_prefix_path.ps1
+source;share/chem_reaction/hook/ament_prefix_path.dsv
+source;share/chem_reaction/hook/ament_prefix_path.sh

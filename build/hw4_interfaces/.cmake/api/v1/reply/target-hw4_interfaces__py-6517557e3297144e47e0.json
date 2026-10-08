@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "hw4_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "hw4_interfaces__py::@cbff54653721f7565165",
+	"name" : "hw4_interfaces__py",
+	"paths" : 
+	{
+		"build" : "hw4_interfaces__py",
+		"source" : "/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__py/CMakeFiles/hw4_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__py/CMakeFiles/hw4_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/user/ros2_ws/build/hw4_interfaces/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

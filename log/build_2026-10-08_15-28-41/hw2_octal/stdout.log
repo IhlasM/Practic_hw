@@ -1,0 +1,30 @@
+running develop
+Removing /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2-octal.egg-link (link to .)
+running egg_info
+writing ../../build/hw2_octal/hw2_octal.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw2_octal/hw2_octal.egg-info/dependency_links.txt
+writing entry points to ../../build/hw2_octal/hw2_octal.egg-info/entry_points.txt
+writing requirements to ../../build/hw2_octal/hw2_octal.egg-info/requires.txt
+writing top-level names to ../../build/hw2_octal/hw2_octal.egg-info/top_level.txt
+reading manifest file '../../build/hw2_octal/hw2_octal.egg-info/SOURCES.txt'
+writing manifest file '../../build/hw2_octal/hw2_octal.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal
+copying /home/user/ros2_ws/build/hw2_octal/build/lib/hw2_octal/octal_converter.py -> /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal
+copying /home/user/ros2_ws/build/hw2_octal/build/lib/hw2_octal/number_publisher.py -> /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal
+copying /home/user/ros2_ws/build/hw2_octal/build/lib/hw2_octal/__init__.py -> /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal
+byte-compiling /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal/octal_converter.py to octal_converter.cpython-312.pyc
+byte-compiling /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal/number_publisher.py to number_publisher.cpython-312.pyc
+byte-compiling /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/hw2_octal -> /home/user/ros2_ws/install/hw2_octal/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/hw2_octal/share/hw2_octal
+running install_egg_info
+Copying ../../build/hw2_octal/hw2_octal.egg-info to /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2_octal-0.0.1-py3.12.egg-info
+running install_scripts
+Installing number_publisher script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+Installing octal_converter script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+writing list of installed files to '/home/user/ros2_ws/build/hw2_octal/install.log'

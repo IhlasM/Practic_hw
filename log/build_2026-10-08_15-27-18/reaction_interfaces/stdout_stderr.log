@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/user/ros2_ws/src/project_1/reaction_interfaces"
+
+[0m
+[0mCMake Error: The source directory "/home/user/ros2_ws/src/project_1/reaction_interfaces" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

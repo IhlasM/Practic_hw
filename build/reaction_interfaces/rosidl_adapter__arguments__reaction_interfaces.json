@@ -1,0 +1,8 @@
+{
+  "package_name": "reaction_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/project_1/reaction_interfaces:msg/TurtleColor.msg",
+    "/home/user/ros2_ws/src/project_1/reaction_interfaces:srv/ChangePenColor.srv",
+    "/home/user/ros2_ws/src/project_1/reaction_interfaces:action/RandomWalk.action"
+  ]
+}

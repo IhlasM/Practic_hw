@@ -1,0 +1,6 @@
+string name
+float32 duration
+---
+bool completed
+---
+float32 time_left

@@ -1,0 +1,9 @@
+# Goal: массив натуральных чисел
+int64[] numbers
+---
+# Result: массив степеней двойки
+int64[] powers
+---
+# Feedback: текущее число и найденная степень
+int64 number
+int64 power

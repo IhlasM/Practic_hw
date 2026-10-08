@@ -1,0 +1,485 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (-) JobUnselected: {'identifier': 'hw2_octal'}
+[0.000549] (-) JobUnselected: {'identifier': 'hw3_anagram'}
+[0.000748] (-) JobUnselected: {'identifier': 'hw3_interfaces'}
+[0.001032] (-) JobUnselected: {'identifier': 'hw4_interfaces'}
+[0.001089] (-) JobUnselected: {'identifier': 'hw4_powers'}
+[0.001138] (chem_interfaces) JobQueued: {'identifier': 'chem_interfaces', 'dependencies': OrderedDict()}
+[0.001204] (chem_reaction) JobQueued: {'identifier': 'chem_reaction', 'dependencies': OrderedDict({'chem_interfaces': '/home/user/ros2_ws/install/chem_interfaces'})}
+[0.001270] (chem_interfaces) JobStarted: {'identifier': 'chem_interfaces'}
+[0.008535] (chem_interfaces) JobProgress: {'identifier': 'chem_interfaces', 'progress': 'cmake'}
+[0.011270] (chem_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/project/chem_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/chem_interfaces'], 'cwd': '/home/user/ros2_ws/build/chem_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws/src/project/chem_interfaces', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-47d0b37a-d773-42db-b6f5-168105528acd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/623_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.1.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/WSL/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/chem_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099773] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.255546] (chem_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300216] (-) TimerEvent: {}
+[0.400525] (-) TimerEvent: {}
+[0.500798] (-) TimerEvent: {}
+[0.601101] (-) TimerEvent: {}
+[0.701437] (-) TimerEvent: {}
+[0.801732] (-) TimerEvent: {}
+[0.802754] (chem_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.901862] (-) TimerEvent: {}
+[1.002176] (-) TimerEvent: {}
+[1.102496] (-) TimerEvent: {}
+[1.202868] (-) TimerEvent: {}
+[1.278656] (chem_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.302987] (-) TimerEvent: {}
+[1.403235] (-) TimerEvent: {}
+[1.496006] (chem_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.502706] (chem_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.503322] (-) TimerEvent: {}
+[1.503600] (chem_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.504347] (chem_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.585759] (chem_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.603463] (-) TimerEvent: {}
+[1.703782] (-) TimerEvent: {}
+[1.804128] (-) TimerEvent: {}
+[1.813040] (chem_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.820742] (chem_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.821194] (chem_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.821423] (chem_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.833635] (chem_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.904247] (-) TimerEvent: {}
+[1.958447] (chem_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.004397] (-) TimerEvent: {}
+[2.084116] (chem_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.094439] (chem_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104518] (-) TimerEvent: {}
+[2.204951] (-) TimerEvent: {}
+[2.266620] (chem_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.305059] (-) TimerEvent: {}
+[2.332784] (chem_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.339860] (chem_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[2.405179] (-) TimerEvent: {}
+[2.505486] (-) TimerEvent: {}
+[2.605855] (-) TimerEvent: {}
+[2.706239] (-) TimerEvent: {}
+[2.806604] (-) TimerEvent: {}
+[2.906918] (-) TimerEvent: {}
+[2.916239] (chem_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.007048] (-) TimerEvent: {}
+[3.107446] (-) TimerEvent: {}
+[3.207786] (-) TimerEvent: {}
+[3.277311] (chem_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.307892] (-) TimerEvent: {}
+[3.408182] (-) TimerEvent: {}
+[3.508638] (-) TimerEvent: {}
+[3.609012] (-) TimerEvent: {}
+[3.710860] (-) TimerEvent: {}
+[3.748646] (chem_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.752874] (chem_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.811234] (-) TimerEvent: {}
+[3.865596] (chem_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.912349] (-) TimerEvent: {}
+[4.012814] (-) TimerEvent: {}
+[4.114534] (-) TimerEvent: {}
+[4.216060] (-) TimerEvent: {}
+[4.223070] (chem_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.287945] (chem_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.305944] (chem_interfaces) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.316325] (-) TimerEvent: {}
+[4.378605] (chem_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.391596] (chem_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/chem_interfaces\n'}
+[4.403155] (chem_interfaces) CommandEnded: {'returncode': 0}
+[4.403738] (chem_interfaces) JobProgress: {'identifier': 'chem_interfaces', 'progress': 'build'}
+[4.404234] (chem_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/chem_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/user/ros2_ws/build/chem_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws/src/project/chem_interfaces', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-47d0b37a-d773-42db-b6f5-168105528acd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/623_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.1.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/WSL/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/chem_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[4.416651] (-) TimerEvent: {}
+[4.452707] (chem_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.452947] (chem_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.461417] (chem_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_chem_interfaces\n'}
+[4.516779] (-) TimerEvent: {}
+[4.617162] (-) TimerEvent: {}
+[4.639700] (chem_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.640396] (chem_interfaces) StdoutLine: {'line': b'creating chem_interfaces.egg-info\n'}
+[4.655795] (chem_interfaces) StdoutLine: {'line': b'writing chem_interfaces.egg-info/PKG-INFO\n'}
+[4.656123] (chem_interfaces) StdoutLine: {'line': b'writing dependency_links to chem_interfaces.egg-info/dependency_links.txt\n'}
+[4.656372] (chem_interfaces) StdoutLine: {'line': b'writing top-level names to chem_interfaces.egg-info/top_level.txt\n'}
+[4.656583] (chem_interfaces) StdoutLine: {'line': b"writing manifest file 'chem_interfaces.egg-info/SOURCES.txt'\n"}
+[4.701016] (chem_interfaces) StdoutLine: {'line': b"reading manifest file 'chem_interfaces.egg-info/SOURCES.txt'\n"}
+[4.701471] (chem_interfaces) StdoutLine: {'line': b"writing manifest file 'chem_interfaces.egg-info/SOURCES.txt'\n"}
+[4.702395] (chem_interfaces) StdoutLine: {'line': b'[  3%] Built target chem_interfaces__rosidl_generator_type_description\n'}
+[4.711805] (chem_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.717322] (-) TimerEvent: {}
+[4.721696] (chem_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.730889] (chem_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_chem_interfaces_egg\n'}
+[4.753965] (chem_interfaces) StdoutLine: {'line': b'[  7%] Built target chem_interfaces__rs\n'}
+[4.817680] (-) TimerEvent: {}
+[4.918343] (-) TimerEvent: {}
+[5.019322] (-) TimerEvent: {}
+[5.119754] (-) TimerEvent: {}
+[5.166067] (chem_interfaces) StdoutLine: {'line': b'[  7%] Built target chem_interfaces__cpp\n'}
+[5.220095] (-) TimerEvent: {}
+[5.230259] (chem_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/msg/detail/collision__functions.c.o\x1b[0m\n'}
+[5.230586] (chem_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/msg/detail/collision__description.c.o\x1b[0m\n'}
+[5.230760] (chem_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/srv/detail/explode__functions.c.o\x1b[0m\n'}
+[5.230904] (chem_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/msg/detail/collision__type_support.c.o\x1b[0m\n'}
+[5.231006] (chem_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/action/detail/react__type_support.c.o\x1b[0m\n'}
+[5.231148] (chem_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/srv/detail/explode__description.c.o\x1b[0m\n'}
+[5.231377] (chem_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/srv/detail/explode__type_support.c.o\x1b[0m\n'}
+[5.232150] (chem_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/action/detail/react__description.c.o\x1b[0m\n'}
+[5.232391] (chem_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chem_interfaces/action/detail/react__functions.c.o\x1b[0m\n'}
+[5.320344] (-) TimerEvent: {}
+[5.372767] (chem_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libchem_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.421340] (-) TimerEvent: {}
+[5.473214] (chem_interfaces) StdoutLine: {'line': b'[ 25%] Built target chem_interfaces__rosidl_generator_c\n'}
+[5.482080] (chem_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.482480] (chem_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.482583] (chem_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.482647] (chem_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.482705] (chem_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.482757] (chem_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.521484] (-) TimerEvent: {}
+[5.621837] (-) TimerEvent: {}
+[5.722863] (-) TimerEvent: {}
+[5.822424] (chem_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chem_interfaces/msg/collision__type_support.cpp.o\x1b[0m\n'}
+[5.822697] (chem_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chem_interfaces/action/react__type_support.cpp.o\x1b[0m\n'}
+[5.822886] (-) TimerEvent: {}
+[5.823576] (chem_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chem_interfaces/srv/explode__type_support.cpp.o\x1b[0m\n'}
+[5.838989] (chem_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chem_interfaces/msg/collision__type_support.cpp.o\x1b[0m\n'}
+[5.839363] (chem_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chem_interfaces/srv/explode__type_support.cpp.o\x1b[0m\n'}
+[5.839974] (chem_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chem_interfaces/action/react__type_support.cpp.o\x1b[0m\n'}
+[5.889688] (chem_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libchem_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.923083] (-) TimerEvent: {}
+[5.937182] (chem_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chem_interfaces/srv/detail/explode__type_support.cpp.o\x1b[0m\n'}
+[5.937610] (chem_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chem_interfaces/action/detail/react__type_support.cpp.o\x1b[0m\n'}
+[5.937735] (chem_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chem_interfaces/msg/detail/collision__type_support.cpp.o\x1b[0m\n'}
+[5.988878] (chem_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chem_interfaces/action/detail/react__type_support.c.o\x1b[0m\n'}
+[5.989107] (chem_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chem_interfaces/msg/detail/collision__type_support.c.o\x1b[0m\n'}
+[5.989670] (chem_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chem_interfaces/srv/detail/explode__type_support.c.o\x1b[0m\n'}
+[6.009160] (chem_interfaces) StdoutLine: {'line': b'[ 60%] Built target chem_interfaces__rosidl_typesupport_c\n'}
+[6.023264] (-) TimerEvent: {}
+[6.063473] (chem_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libchem_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.096509] (chem_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chem_interfaces/action/detail/dds_fastrtps/react__type_support.cpp.o\x1b[0m\n'}
+[6.096842] (chem_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chem_interfaces/msg/detail/dds_fastrtps/collision__type_support.cpp.o\x1b[0m\n'}
+[6.098826] (chem_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chem_interfaces/srv/detail/dds_fastrtps/explode__type_support.cpp.o\x1b[0m\n'}
+[6.123499] (-) TimerEvent: {}
+[6.172006] (chem_interfaces) StdoutLine: {'line': b'[ 67%] Built target chem_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.193803] (chem_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chem_interfaces/action/detail/react__type_support_c.cpp.o\x1b[0m\n'}
+[6.194833] (chem_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chem_interfaces/msg/detail/collision__type_support_c.cpp.o\x1b[0m\n'}
+[6.195225] (chem_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/chem_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chem_interfaces/srv/detail/explode__type_support_c.cpp.o\x1b[0m\n'}
+[6.223733] (-) TimerEvent: {}
+[6.324342] (-) TimerEvent: {}
+[6.425383] (-) TimerEvent: {}
+[6.526244] (-) TimerEvent: {}
+[6.627814] (-) TimerEvent: {}
+[6.728300] (-) TimerEvent: {}
+[6.758860] (chem_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libchem_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.814427] (chem_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libchem_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.828519] (-) TimerEvent: {}
+[6.896845] (chem_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libchem_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.928677] (-) TimerEvent: {}
+[6.931129] (chem_interfaces) StdoutLine: {'line': b'[ 78%] Built target chem_interfaces__rosidl_typesupport_cpp\n'}
+[6.963957] (chem_interfaces) StdoutLine: {'line': b'[ 78%] Built target chem_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.028841] (-) TimerEvent: {}
+[7.032335] (chem_interfaces) StdoutLine: {'line': b'[ 78%] Built target chem_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.128964] (-) TimerEvent: {}
+[7.197929] (chem_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libchem_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.229114] (-) TimerEvent: {}
+[7.326135] (chem_interfaces) StdoutLine: {'line': b'[ 80%] Built target chem_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.329228] (-) TimerEvent: {}
+[7.344167] (chem_interfaces) StdoutLine: {'line': b'[ 80%] Built target chem_interfaces\n'}
+[7.362939] (chem_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.429420] (-) TimerEvent: {}
+[7.529751] (-) TimerEvent: {}
+[7.630030] (-) TimerEvent: {}
+[7.730404] (-) TimerEvent: {}
+[7.830782] (-) TimerEvent: {}
+[7.931117] (-) TimerEvent: {}
+[8.031397] (-) TimerEvent: {}
+[8.071705] (chem_interfaces) StdoutLine: {'line': b'[ 81%] Built target chem_interfaces__py\n'}
+[8.090145] (chem_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chem_interfaces/action/_react_s.c.o\x1b[0m\n'}
+[8.090434] (chem_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chem_interfaces/msg/_collision_s.c.o\x1b[0m\n'}
+[8.090702] (chem_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chem_interfaces/srv/_explode_s.c.o\x1b[0m\n'}
+[8.131488] (-) TimerEvent: {}
+[8.231868] (-) TimerEvent: {}
+[8.294714] (chem_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libchem_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.331985] (-) TimerEvent: {}
+[8.396481] (chem_interfaces) StdoutLine: {'line': b'[ 89%] Built target chem_interfaces__rosidl_generator_py\n'}
+[8.414001] (chem_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.414315] (chem_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.414497] (chem_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/chem_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.432121] (-) TimerEvent: {}
+[8.524015] (chem_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chem_interfaces/chem_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.529228] (chem_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chem_interfaces/chem_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.529565] (chem_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chem_interfaces/chem_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.532208] (-) TimerEvent: {}
+[8.599472] (chem_interfaces) StdoutLine: {'line': b'[100%] Built target chem_interfaces_s__rosidl_typesupport_c\n'}
+[8.599900] (chem_interfaces) StdoutLine: {'line': b'[100%] Built target chem_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[8.600049] (chem_interfaces) StdoutLine: {'line': b'[100%] Built target chem_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[8.611182] (chem_interfaces) CommandEnded: {'returncode': 0}
+[8.611944] (chem_interfaces) JobProgress: {'identifier': 'chem_interfaces', 'progress': 'install'}
+[8.619933] (chem_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/chem_interfaces'], 'cwd': '/home/user/ros2_ws/build/chem_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws/src/project/chem_interfaces', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-47d0b37a-d773-42db-b6f5-168105528acd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/623_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.1.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/WSL/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/chem_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[8.627902] (chem_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.629717] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/ament_index/resource_index/rosidl_interfaces/chem_interfaces\n'}
+[8.630694] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/msg/Collision.json\n'}
+[8.631182] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/srv/Explode.json\n'}
+[8.631647] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/action/React.json\n'}
+[8.631869] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.632285] (-) TimerEvent: {}
+[8.632945] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.633326] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.633712] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__type_support.c\n'}
+[8.633872] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__description.c\n'}
+[8.634111] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__functions.h\n'}
+[8.634323] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__struct.h\n'}
+[8.634484] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__type_support.h\n'}
+[8.634660] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__functions.c\n'}
+[8.634875] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/react.h\n'}
+[8.635143] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.635407] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/collision.h\n'}
+[8.635567] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.635704] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.636088] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__struct.h\n'}
+[8.636256] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__description.c\n'}
+[8.636431] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__type_support.c\n'}
+[8.636544] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__functions.c\n'}
+[8.636772] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__functions.h\n'}
+[8.637018] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__type_support.h\n'}
+[8.637344] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.637596] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.637807] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__struct.h\n'}
+[8.637965] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__type_support.h\n'}
+[8.638120] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__functions.h\n'}
+[8.638295] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__type_support.c\n'}
+[8.638446] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__functions.c\n'}
+[8.638631] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__description.c\n'}
+[8.638847] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/explode.h\n'}
+[8.639389] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/library_path.sh\n'}
+[8.639580] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/library_path.dsv\n'}
+[8.640136] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_generator_c.so\n'}
+[8.640720] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.640940] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.641180] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.641357] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.641506] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__rosidl_typesupport_fastrtps_c.h\n'}
+[8.641709] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.641786] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.641909] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.642094] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__rosidl_typesupport_fastrtps_c.h\n'}
+[8.642242] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.642347] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.642607] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__rosidl_typesupport_fastrtps_c.h\n'}
+[8.642697] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.642773] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.642976] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.643232] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.643311] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.643369] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__type_support.c\n'}
+[8.643481] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__rosidl_typesupport_introspection_c.h\n'}
+[8.643747] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.643941] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.644002] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.644054] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__type_support.c\n'}
+[8.644104] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__rosidl_typesupport_introspection_c.h\n'}
+[8.644212] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.644289] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.644345] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__type_support.c\n'}
+[8.644398] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__rosidl_typesupport_introspection_c.h\n'}
+[8.644491] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.644681] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.644745] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_c.so\n'}
+[8.644970] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.645176] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.645400] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.645470] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.645618] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__builder.hpp\n'}
+[8.645848] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__type_support.hpp\n'}
+[8.645917] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__traits.hpp\n'}
+[8.646074] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__struct.hpp\n'}
+[8.646259] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/react.hpp\n'}
+[8.646464] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.646775] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/collision.hpp\n'}
+[8.646972] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.647273] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__type_support.hpp\n'}
+[8.647375] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__struct.hpp\n'}
+[8.647663] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__builder.hpp\n'}
+[8.647749] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__traits.hpp\n'}
+[8.647922] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.648217] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.648284] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/explode.hpp\n'}
+[8.648341] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.648394] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__traits.hpp\n'}
+[8.648446] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__struct.hpp\n'}
+[8.648547] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__type_support.hpp\n'}
+[8.648701] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__builder.hpp\n'}
+[8.648903] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.649155] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.649391] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.649454] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/dds_fastrtps\n'}
+[8.649587] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.649659] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.649715] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.649766] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.649815] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.649864] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/dds_fastrtps\n'}
+[8.650013] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.650254] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.650403] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/dds_fastrtps\n'}
+[8.650541] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.650726] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.651458] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.651682] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces\n'}
+[8.651806] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action\n'}
+[8.651863] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail\n'}
+[8.651988] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.652213] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/action/detail/react__type_support.cpp\n'}
+[8.652456] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg\n'}
+[8.652668] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail\n'}
+[8.652857] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__type_support.cpp\n'}
+[8.653069] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/msg/detail/collision__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.653133] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv\n'}
+[8.653186] (chem_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail\n'}
+[8.653236] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__type_support.cpp\n'}
+[8.653286] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/include/chem_interfaces/chem_interfaces/srv/detail/explode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.653334] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.653718] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.653952] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.654333] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.654453] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/pythonpath.sh\n'}
+[8.654584] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/pythonpath.dsv\n'}
+[8.654724] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces-0.0.1-py3.12.egg-info\n'}
+[8.655885] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[8.656251] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[8.656383] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[8.656561] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[8.656732] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces\n'}
+[8.656903] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action\n'}
+[8.657271] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action/_react.py\n'}
+[8.657471] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action/_react_s.c\n'}
+[8.657675] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action/__init__.py\n'}
+[8.657860] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.658079] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.658345] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.658549] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.658740] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.658991] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/_chem_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.659199] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg\n'}
+[8.659581] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg/_collision.py\n'}
+[8.659721] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg/_collision_s.c\n'}
+[8.659927] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg/__init__.py\n'}
+[8.660053] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv\n'}
+[8.660488] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv/_explode_s.c\n'}
+[8.660753] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv/_explode.py\n'}
+[8.661012] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv/__init__.py\n'}
+[8.661162] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/__init__.py\n'}
+[8.705758] (chem_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces'...\n"}
+[8.705979] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/__init__.py'...\n"}
+[8.706054] (chem_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action'...\n"}
+[8.706108] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action/__init__.py'...\n"}
+[8.706160] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/action/_react.py'...\n"}
+[8.706219] (chem_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg'...\n"}
+[8.706267] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg/__init__.py'...\n"}
+[8.706338] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/msg/_collision.py'...\n"}
+[8.706389] (chem_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv'...\n"}
+[8.706445] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv/__init__.py'...\n"}
+[8.706503] (chem_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/srv/_explode.py'...\n"}
+[8.712848] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.713353] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.713570] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.714086] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.714243] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.714603] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages/chem_interfaces/chem_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[8.714854] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_generator_py.so\n'}
+[8.715074] (chem_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/chem_interfaces/lib/libchem_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.715213] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust\n'}
+[8.715685] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/build.rs\n'}
+[8.715849] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/Cargo.toml\n'}
+[8.716010] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src\n'}
+[8.716389] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/action\n'}
+[8.716813] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/action/rmw.rs\n'}
+[8.716969] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/srv.rs\n'}
+[8.717131] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/msg\n'}
+[8.717541] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/msg/rmw.rs\n'}
+[8.717837] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/msg.rs\n'}
+[8.718006] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/lib.rs\n'}
+[8.718305] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/srv\n'}
+[8.718473] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/srv/rmw.rs\n'}
+[8.718642] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/rust/src/action.rs\n'}
+[8.718839] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/msg/Collision.idl\n'}
+[8.719000] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/srv/Explode.idl\n'}
+[8.719177] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/action/React.idl\n'}
+[8.719331] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/msg/Collision.msg\n'}
+[8.719548] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/srv/Explode.srv\n'}
+[8.719751] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/action/React.action\n'}
+[8.720349] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/ament_index/resource_index/package_run_dependencies/chem_interfaces\n'}
+[8.721004] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/ament_index/resource_index/parent_prefix_path/chem_interfaces\n'}
+[8.721225] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/ament_prefix_path.sh\n'}
+[8.721413] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.721605] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/path.sh\n'}
+[8.721774] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/environment/path.dsv\n'}
+[8.721972] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/local_setup.bash\n'}
+[8.722154] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/local_setup.sh\n'}
+[8.722397] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/local_setup.zsh\n'}
+[8.722669] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/local_setup.dsv\n'}
+[8.722804] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.dsv\n'}
+[8.723243] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/ament_index/resource_index/packages/chem_interfaces\n'}
+[8.723793] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.724022] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.724243] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.724538] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.724788] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.725104] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.725174] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.725229] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.725339] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.725510] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.725697] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.725910] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.726099] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.726285] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.726475] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.726699] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.726918] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/export_chem_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.727094] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.727258] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.727416] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.727606] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.727799] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.728003] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.728173] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.728348] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[8.728523] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfacesConfig.cmake\n'}
+[8.728718] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/cmake/chem_interfacesConfig-version.cmake\n'}
+[8.728901] (chem_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.xml\n'}
+[8.731287] (chem_interfaces) CommandEnded: {'returncode': 0}
+[8.732436] (-) TimerEvent: {}
+[8.751387] (chem_interfaces) JobEnded: {'identifier': 'chem_interfaces', 'rc': 0}
+[8.752391] (chem_reaction) JobStarted: {'identifier': 'chem_reaction'}
+[8.832621] (-) TimerEvent: {}
+[8.932963] (-) TimerEvent: {}
+[9.033299] (-) TimerEvent: {}
+[9.133645] (-) TimerEvent: {}
+[9.233954] (-) TimerEvent: {}
+[9.334292] (-) TimerEvent: {}
+[9.434612] (-) TimerEvent: {}
+[9.534914] (-) TimerEvent: {}
+[9.592132] (chem_reaction) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/chem_reaction', 'build', '--build-base', '/home/user/ros2_ws/build/chem_reaction/build', 'install', '--record', '/home/user/ros2_ws/build/chem_reaction/install.log', '--install-scripts', '$base/lib/chem_reaction', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/project/chem_reaction', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/chem_interfaces/lib:/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws/src/project/chem_interfaces', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-47d0b37a-d773-42db-b6f5-168105528acd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/623_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_3.0.1.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/WSL/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/chem_interfaces:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/chem_reaction', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/chem_reaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/chem_interfaces:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[9.635045] (-) TimerEvent: {}
+[9.735432] (-) TimerEvent: {}
+[9.793160] (chem_reaction) StdoutLine: {'line': b'running egg_info\n'}
+[9.809725] (chem_reaction) StdoutLine: {'line': b'writing ../../../build/chem_reaction/chem_reaction.egg-info/PKG-INFO\n'}
+[9.810071] (chem_reaction) StdoutLine: {'line': b'writing dependency_links to ../../../build/chem_reaction/chem_reaction.egg-info/dependency_links.txt\n'}
+[9.810409] (chem_reaction) StdoutLine: {'line': b'writing entry points to ../../../build/chem_reaction/chem_reaction.egg-info/entry_points.txt\n'}
+[9.810672] (chem_reaction) StdoutLine: {'line': b'writing requirements to ../../../build/chem_reaction/chem_reaction.egg-info/requires.txt\n'}
+[9.810855] (chem_reaction) StdoutLine: {'line': b'writing top-level names to ../../../build/chem_reaction/chem_reaction.egg-info/top_level.txt\n'}
+[9.835560] (-) TimerEvent: {}
+[9.845806] (chem_reaction) StdoutLine: {'line': b"reading manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'\n"}
+[9.846499] (chem_reaction) StdoutLine: {'line': b"writing manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'\n"}
+[9.846832] (chem_reaction) StdoutLine: {'line': b'running build\n'}
+[9.846927] (chem_reaction) StdoutLine: {'line': b'running build_py\n'}
+[9.847197] (chem_reaction) StdoutLine: {'line': b'running install\n'}
+[9.851918] (chem_reaction) StdoutLine: {'line': b'running install_lib\n'}
+[9.867296] (chem_reaction) StdoutLine: {'line': b'running install_data\n'}
+[9.867516] (chem_reaction) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.883000] (chem_reaction) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[9.883341] (chem_reaction) StdoutLine: {'line': b'Copying ../../../build/chem_reaction/chem_reaction.egg-info to /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info\n'}
+[9.884844] (chem_reaction) StdoutLine: {'line': b'running install_scripts\n'}
+[9.935706] (-) TimerEvent: {}
+[9.987126] (chem_reaction) StdoutLine: {'line': b'Installing collision_detector script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction\n'}
+[9.987388] (chem_reaction) StdoutLine: {'line': b'Installing turtle_motion script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction\n'}
+[9.987680] (chem_reaction) StdoutLine: {'line': b'Installing turtle_setup script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction\n'}
+[9.987912] (chem_reaction) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/chem_reaction/install.log'\n"}
+[10.019027] (chem_reaction) CommandEnded: {'returncode': 0}
+[10.025195] (chem_reaction) JobEnded: {'identifier': 'chem_reaction', 'rc': 0}
+[10.026191] (-) EventReactorShutdown: {}

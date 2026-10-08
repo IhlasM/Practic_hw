@@ -1,0 +1,13 @@
+{
+  "package_name": "hw4_interfaces",
+  "output_dir": "/home/user/ros2_ws/build/hw4_interfaces/rosidl_generator_type_description/hw4_interfaces",
+  "idl_tuples": [
+    "/home/user/ros2_ws/build/hw4_interfaces/rosidl_adapter/hw4_interfaces:action/PowerOfTwo.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

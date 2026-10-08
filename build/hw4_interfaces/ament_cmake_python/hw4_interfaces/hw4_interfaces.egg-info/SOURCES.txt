@@ -1,0 +1,8 @@
+setup.py
+hw4_interfaces/__init__.py
+hw4_interfaces.egg-info/PKG-INFO
+hw4_interfaces.egg-info/SOURCES.txt
+hw4_interfaces.egg-info/dependency_links.txt
+hw4_interfaces.egg-info/top_level.txt
+hw4_interfaces/action/__init__.py
+hw4_interfaces/action/_power_of_two.py

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_Goal",
+      "fields": [
+        {
+          "name": "numbers",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_Goal",
+      "hash_string": "RIHS01_062c69de818adc3d34ce7cb5516a85d6cf69a8f9230821e2bf959a548b41b469"
+    }
+  ]
+}

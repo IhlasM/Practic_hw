@@ -1,0 +1,3 @@
+[console_scripts]
+anagram_client = hw3_anagram.anagram_client:main
+anagram_server = hw3_anagram.anagram_server:main

@@ -1,0 +1,243 @@
+[0.015s] Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw3/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw3_interfaces
+[0.291s] -- The C compiler identification is GNU 13.3.0
+[0.818s] -- The CXX compiler identification is GNU 13.3.0
+[1.266s] -- Detecting C compiler ABI info
+[1.475s] -- Detecting C compiler ABI info - done
+[1.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.483s] -- Detecting C compile features
+[1.484s] -- Detecting C compile features - done
+[1.555s] -- Detecting CXX compiler ABI info
+[1.763s] -- Detecting CXX compiler ABI info - done
+[1.770s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.770s] -- Detecting CXX compile features
+[1.771s] -- Detecting CXX compile features - done
+[1.801s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.930s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.051s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.280s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.786s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.611s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.719s] -- Found PythonExtra: /usr/bin/python3  
+[4.147s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.202s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.219s] -- Configuring done (4.1s)
+[4.275s] -- Generating done (0.0s)
+[4.288s] -- Build files have been written to: /home/user/ros2_ws/build/hw3_interfaces
+[4.298s] Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw3/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw3_interfaces
+[4.299s] Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+[4.345s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.345s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.353s] [  5%] Built target ament_cmake_python_copy_hw3_interfaces
+[4.507s] [  5%] Built target hw3_interfaces__rosidl_generator_type_description
+[4.515s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.522s] [  8%] Built target hw3_interfaces__rs
+[4.526s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.533s] running egg_info
+[4.534s] creating hw3_interfaces.egg-info
+[4.551s] writing hw3_interfaces.egg-info/PKG-INFO
+[4.552s] writing dependency_links to hw3_interfaces.egg-info/dependency_links.txt
+[4.552s] writing top-level names to hw3_interfaces.egg-info/top_level.txt
+[4.552s] writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[4.595s] reading manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[4.596s] writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[4.621s] [ 11%] Built target ament_cmake_python_build_hw3_interfaces_egg
+[4.727s] [ 11%] Built target hw3_interfaces__cpp
+[4.748s] [ 20%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__type_support.c.o[0m
+[4.748s] [ 20%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__description.c.o[0m
+[4.748s] [ 20%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__functions.c.o[0m
+[4.817s] [ 22%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_generator_c.so[0m
+[4.912s] [ 22%] Built target hw3_interfaces__rosidl_generator_c
+[4.920s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.921s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.921s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.921s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.921s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.921s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.116s] [ 42%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw3_interfaces/srv/check_anagram__type_support.cpp.o[0m
+[5.128s] [ 45%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw3_interfaces/srv/check_anagram__type_support.cpp.o[0m
+[5.142s] [ 48%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw3_interfaces/srv/detail/check_anagram__type_support.c.o[0m
+[5.152s] [ 51%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw3_interfaces/srv/detail/check_anagram__type_support.cpp.o[0m
+[5.172s] [ 57%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_c.so[0m
+[5.172s] [ 57%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw3_interfaces/srv/detail/dds_fastrtps/check_anagram__type_support.cpp.o[0m
+[5.173s] [ 60%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw3_interfaces/srv/detail/check_anagram__type_support_c.cpp.o[0m
+[5.186s] [ 62%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.284s] [ 62%] Built target hw3_interfaces__rosidl_typesupport_c
+[5.287s] [ 62%] Built target hw3_interfaces__rosidl_typesupport_introspection_c
+[5.515s] [ 65%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_cpp.so[0m
+[5.562s] [ 68%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.627s] [ 71%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.658s] [ 71%] Built target hw3_interfaces__rosidl_typesupport_cpp
+[5.696s] [ 71%] Built target hw3_interfaces__rosidl_typesupport_introspection_cpp
+[5.725s] [ 74%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.761s] [ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_c
+[5.851s] [ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.868s] [ 74%] Built target hw3_interfaces
+[5.885s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.134s] [ 77%] Built target hw3_interfaces__py
+[6.153s] [ 80%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw3_interfaces/srv/_check_anagram_s.c.o[0m
+[6.311s] [ 82%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_generator_py.so[0m
+[6.409s] [ 82%] Built target hw3_interfaces__rosidl_generator_py
+[6.427s] [ 88%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.427s] [ 88%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.427s] [ 91%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.509s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so[0m
+[6.509s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.510s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.580s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_introspection_c
+[6.581s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_c
+[6.581s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.591s] Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+[6.600s] Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces
+[6.607s] -- Install configuration: ""
+[6.608s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/rosidl_interfaces/hw3_interfaces
+[6.609s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.json
+[6.610s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.611s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[6.611s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.611s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.612s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.612s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__functions.c
+[6.612s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.c
+[6.612s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__description.c
+[6.612s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__struct.h
+[6.613s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.h
+[6.613s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__functions.h
+[6.613s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/check_anagram.h
+[6.613s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.sh
+[6.614s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.dsv
+[6.614s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so
+[6.615s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so" to ""
+[6.615s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.615s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[6.615s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.616s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.616s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.616s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_fastrtps_c.h
+[6.616s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.616s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.616s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.616s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[6.617s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.617s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.617s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.617s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_introspection_c.h
+[6.617s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.c
+[6.617s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so
+[6.617s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.617s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so
+[6.617s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so" to ""
+[6.617s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.617s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[6.618s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.618s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.618s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/check_anagram.hpp
+[6.618s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.618s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__traits.hpp
+[6.618s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.hpp
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__builder.hpp
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__struct.hpp
+[6.619s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.619s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.619s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.619s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/dds_fastrtps
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_fastrtps_cpp.hpp
+[6.619s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.620s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.620s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[6.620s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[6.620s] -- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[6.621s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_introspection_cpp.hpp
+[6.621s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.cpp
+[6.621s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.621s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.621s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so
+[6.622s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.622s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.sh
+[6.622s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.dsv
+[6.622s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info
+[6.623s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[6.623s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[6.623s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[6.623s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[6.624s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces
+[6.624s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.624s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.625s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so
+[6.625s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c
+[6.625s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.625s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.625s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv
+[6.626s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram.py
+[6.626s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram_s.c
+[6.626s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py
+[6.626s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py
+[6.659s] Listing '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces'...
+[6.660s] Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py'...
+[6.660s] Listing '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv'...
+[6.660s] Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py'...
+[6.660s] Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram.py'...
+[6.664s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.665s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.665s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.665s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[6.665s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so
+[6.666s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so" to ""
+[6.666s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so
+[6.666s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so" to ""
+[6.667s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust
+[6.667s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/build.rs
+[6.667s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/Cargo.toml
+[6.667s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src
+[6.668s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv.rs
+[6.668s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/lib.rs
+[6.668s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv
+[6.668s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv/rmw.rs
+[6.668s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.idl
+[6.669s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.srv
+[6.669s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/package_run_dependencies/hw3_interfaces
+[6.670s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/parent_prefix_path/hw3_interfaces
+[6.670s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.sh
+[6.670s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.dsv
+[6.670s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.sh
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.dsv
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.bash
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.sh
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.zsh
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.dsv
+[6.671s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv
+[6.672s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/packages/hw3_interfaces
+[6.672s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport.cmake
+[6.672s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.673s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.673s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.673s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.673s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.673s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cppExport.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.674s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.675s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.676s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.676s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.676s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.676s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.676s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.677s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.677s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig.cmake
+[6.677s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig-version.cmake
+[6.677s] -- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.xml
+[6.680s] Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces

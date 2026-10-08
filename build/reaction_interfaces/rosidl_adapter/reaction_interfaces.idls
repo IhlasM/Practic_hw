@@ -1,0 +1,3 @@
+/home/user/ros2_ws/build/reaction_interfaces/rosidl_adapter/reaction_interfaces:msg/TurtleColor.idl
+/home/user/ros2_ws/build/reaction_interfaces/rosidl_adapter/reaction_interfaces:srv/ChangePenColor.idl
+/home/user/ros2_ws/build/reaction_interfaces/rosidl_adapter/reaction_interfaces:action/RandomWalk.idl

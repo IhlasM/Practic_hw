@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc89b131417f1526a7c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "chem_interfaces__py",
+					"jsonFile" : "directory-chem_interfaces__py-9b179687cc073298b8e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/chem_interfaces/chem_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "chem_interfaces__rs",
+					"jsonFile" : "directory-chem_interfaces__rs-7ec5e0e9f2ba5135af37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/chem_interfaces/chem_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "chem_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_chem_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_chem_interfaces_egg-b259d3c88341f0cdc075.json",
+					"name" : "ament_cmake_python_build_chem_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_chem_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_chem_interfaces-b4b715443cf3a345af68.json",
+					"name" : "ament_cmake_python_copy_chem_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces-8e0688d4662ce43b3a33.json",
+					"name" : "chem_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__cpp-48f79265e68e06c0ae77.json",
+					"name" : "chem_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chem_interfaces__py::@e503301161efcbd9f99f",
+					"jsonFile" : "target-chem_interfaces__py-b1554e3b42a98edbf46c.json",
+					"name" : "chem_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_generator_c-6f88a3b418371d059200.json",
+					"name" : "chem_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_generator_py-825219ea225ce5761cce.json",
+					"name" : "chem_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_generator_type_description-a9115fb5cc19aa9c67f9.json",
+					"name" : "chem_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_c-cb76faeb70872c3a3927.json",
+					"name" : "chem_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_cpp-ade145ba5d47e90f4d08.json",
+					"name" : "chem_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_fastrtps_c-3a962eb9db75cdb6da38.json",
+					"name" : "chem_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_fastrtps_cpp-45e79f304f4b12e0c898.json",
+					"name" : "chem_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_introspection_c-4c7b47a78975f1a4df01.json",
+					"name" : "chem_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces__rosidl_typesupport_introspection_cpp-e75518ced4d919136b0c.json",
+					"name" : "chem_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "chem_interfaces__rs::@d5ce3ba3a7fcce468cf4",
+					"jsonFile" : "target-chem_interfaces__rs-e9b4c775c66a2f06050b.json",
+					"name" : "chem_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces_s__rosidl_typesupport_c-31eb968f97e5f50b81ef.json",
+					"name" : "chem_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces_s__rosidl_typesupport_fastrtps_c-dfc7ccf5a6f2d20dc89b.json",
+					"name" : "chem_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces_s__rosidl_typesupport_introspection_c-ee0b5f52203b4815680a.json",
+					"name" : "chem_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chem_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chem_interfaces_uninstall-9c1be482950da5ccf2e7.json",
+					"name" : "chem_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab6691a000a8b1edaf42.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/ros2_ws/build/chem_interfaces",
+		"source" : "/home/user/ros2_ws/src/project/chem_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

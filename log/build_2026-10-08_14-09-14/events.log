@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (-) JobUnselected: {'identifier': 'hw2_octal'}
+[0.000547] (-) JobUnselected: {'identifier': 'hw3_anagram'}
+[0.000768] (-) JobUnselected: {'identifier': 'hw3_interfaces'}
+[0.001040] (hw4_interfaces) JobQueued: {'identifier': 'hw4_interfaces', 'dependencies': OrderedDict()}
+[0.001169] (hw4_powers) JobQueued: {'identifier': 'hw4_powers', 'dependencies': OrderedDict({'hw4_interfaces': '/home/user/ros2_ws/install/hw4_interfaces'})}
+[0.001257] (hw4_interfaces) JobStarted: {'identifier': 'hw4_interfaces'}
+[0.011506] (hw4_interfaces) JobProgress: {'identifier': 'hw4_interfaces', 'progress': 'cmake'}
+[0.014260] (hw4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/hw4/hw4_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw4_interfaces'], 'cwd': '/home/user/ros2_ws/build/hw4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-690844a5-f6c7-4dad-983b-3d136c91e9e5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw4_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.101084] (-) TimerEvent: {}
+[0.202052] (-) TimerEvent: {}
+[0.250768] (hw4_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.302665] (-) TimerEvent: {}
+[0.403036] (-) TimerEvent: {}
+[0.503653] (-) TimerEvent: {}
+[0.604426] (-) TimerEvent: {}
+[0.704816] (-) TimerEvent: {}
+[0.784116] (hw4_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.804969] (-) TimerEvent: {}
+[0.905272] (-) TimerEvent: {}
+[1.005586] (-) TimerEvent: {}
+[1.105881] (-) TimerEvent: {}
+[1.206181] (-) TimerEvent: {}
+[1.231425] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.306338] (-) TimerEvent: {}
+[1.406654] (-) TimerEvent: {}
+[1.447111] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.453759] (hw4_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.454620] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.455371] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.506804] (-) TimerEvent: {}
+[1.525624] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.606930] (-) TimerEvent: {}
+[1.707276] (-) TimerEvent: {}
+[1.739796] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.747717] (hw4_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.747991] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.748366] (hw4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.763385] (hw4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.807392] (-) TimerEvent: {}
+[1.886247] (hw4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.907520] (-) TimerEvent: {}
+[1.999518] (hw4_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.007614] (-) TimerEvent: {}
+[2.007855] (hw4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.107707] (-) TimerEvent: {}
+[2.181873] (hw4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.207833] (-) TimerEvent: {}
+[2.241393] (hw4_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.249040] (hw4_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[2.307970] (-) TimerEvent: {}
+[2.409046] (-) TimerEvent: {}
+[2.509854] (-) TimerEvent: {}
+[2.612015] (-) TimerEvent: {}
+[2.714180] (-) TimerEvent: {}
+[2.802270] (hw4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.814459] (-) TimerEvent: {}
+[2.916648] (-) TimerEvent: {}
+[3.017032] (-) TimerEvent: {}
+[3.118243] (-) TimerEvent: {}
+[3.164519] (hw4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.218411] (-) TimerEvent: {}
+[3.320703] (-) TimerEvent: {}
+[3.421092] (-) TimerEvent: {}
+[3.522168] (-) TimerEvent: {}
+[3.622964] (-) TimerEvent: {}
+[3.634567] (hw4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.638612] (hw4_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.723146] (-) TimerEvent: {}
+[3.751579] (hw4_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.823323] (-) TimerEvent: {}
+[3.924445] (-) TimerEvent: {}
+[4.025741] (-) TimerEvent: {}
+[4.110394] (hw4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.126116] (-) TimerEvent: {}
+[4.168783] (hw4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.186059] (hw4_interfaces) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[4.226839] (-) TimerEvent: {}
+[4.244313] (hw4_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.256917] (hw4_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/hw4_interfaces\n'}
+[4.267605] (hw4_interfaces) CommandEnded: {'returncode': 0}
+[4.268843] (hw4_interfaces) JobProgress: {'identifier': 'hw4_interfaces', 'progress': 'build'}
+[4.268866] (hw4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/hw4_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/user/ros2_ws/build/hw4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-690844a5-f6c7-4dad-983b-3d136c91e9e5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw4_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[4.313826] (hw4_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.314135] (hw4_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.321750] (hw4_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_hw4_interfaces\n'}
+[4.326994] (-) TimerEvent: {}
+[4.427354] (-) TimerEvent: {}
+[4.484331] (hw4_interfaces) StdoutLine: {'line': b'[  5%] Built target hw4_interfaces__rosidl_generator_type_description\n'}
+[4.493580] (hw4_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.501218] (hw4_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.501923] (hw4_interfaces) StdoutLine: {'line': b'creating hw4_interfaces.egg-info\n'}
+[4.503406] (hw4_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.517828] (hw4_interfaces) StdoutLine: {'line': b'writing hw4_interfaces.egg-info/PKG-INFO\n'}
+[4.518194] (hw4_interfaces) StdoutLine: {'line': b'writing dependency_links to hw4_interfaces.egg-info/dependency_links.txt\n'}
+[4.518406] (hw4_interfaces) StdoutLine: {'line': b'writing top-level names to hw4_interfaces.egg-info/top_level.txt\n'}
+[4.518567] (hw4_interfaces) StdoutLine: {'line': b"writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'\n"}
+[4.527618] (-) TimerEvent: {}
+[4.529027] (hw4_interfaces) StdoutLine: {'line': b'[ 11%] Built target hw4_interfaces__rs\n'}
+[4.564807] (hw4_interfaces) StdoutLine: {'line': b"reading manifest file 'hw4_interfaces.egg-info/SOURCES.txt'\n"}
+[4.565185] (hw4_interfaces) StdoutLine: {'line': b"writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'\n"}
+[4.589417] (hw4_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_hw4_interfaces_egg\n'}
+[4.627827] (-) TimerEvent: {}
+[4.728290] (-) TimerEvent: {}
+[4.828765] (-) TimerEvent: {}
+[4.830096] (hw4_interfaces) StdoutLine: {'line': b'[ 11%] Built target hw4_interfaces__cpp\n'}
+[4.846691] (hw4_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__functions.c.o\x1b[0m\n'}
+[4.846970] (hw4_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__description.c.o\x1b[0m\n'}
+[4.847091] (hw4_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__type_support.c.o\x1b[0m\n'}
+[4.928854] (-) TimerEvent: {}
+[4.984917] (hw4_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libhw4_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.029559] (-) TimerEvent: {}
+[5.083502] (hw4_interfaces) StdoutLine: {'line': b'[ 22%] Built target hw4_interfaces__rosidl_generator_c\n'}
+[5.092554] (hw4_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.093118] (hw4_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.093297] (hw4_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.093399] (hw4_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.093562] (hw4_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.093828] (hw4_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.129737] (-) TimerEvent: {}
+[5.230426] (-) TimerEvent: {}
+[5.319162] (hw4_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw4_interfaces/action/power_of_two__type_support.cpp.o\x1b[0m\n'}
+[5.328044] (hw4_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw4_interfaces/action/power_of_two__type_support.cpp.o\x1b[0m\n'}
+[5.330560] (-) TimerEvent: {}
+[5.377101] (hw4_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.391711] (hw4_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw4_interfaces/action/detail/power_of_two__type_support.cpp.o\x1b[0m\n'}
+[5.430725] (-) TimerEvent: {}
+[5.432254] (hw4_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw4_interfaces/action/detail/power_of_two__type_support.c.o\x1b[0m\n'}
+[5.480068] (hw4_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw4_interfaces/action/detail/dds_fastrtps/power_of_two__type_support.cpp.o\x1b[0m\n'}
+[5.494484] (hw4_interfaces) StdoutLine: {'line': b'[ 57%] Built target hw4_interfaces__rosidl_typesupport_c\n'}
+[5.499823] (hw4_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libhw4_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.530914] (-) TimerEvent: {}
+[5.546669] (hw4_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw4_interfaces/action/detail/power_of_two__type_support_c.cpp.o\x1b[0m\n'}
+[5.597291] (hw4_interfaces) StdoutLine: {'line': b'[ 62%] Built target hw4_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.631097] (-) TimerEvent: {}
+[5.732025] (-) TimerEvent: {}
+[5.832514] (-) TimerEvent: {}
+[5.933470] (-) TimerEvent: {}
+[6.034332] (-) TimerEvent: {}
+[6.056348] (hw4_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.056636] (hw4_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.132514] (hw4_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.134479] (-) TimerEvent: {}
+[6.147118] (hw4_interfaces) StdoutLine: {'line': b'[ 71%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.180054] (hw4_interfaces) StdoutLine: {'line': b'[ 71%] Built target hw4_interfaces__rosidl_typesupport_cpp\n'}
+[6.234672] (-) TimerEvent: {}
+[6.276567] (hw4_interfaces) StdoutLine: {'line': b'[ 71%] Built target hw4_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.334853] (-) TimerEvent: {}
+[6.404199] (hw4_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.434990] (-) TimerEvent: {}
+[6.535357] (-) TimerEvent: {}
+[6.537538] (hw4_interfaces) StdoutLine: {'line': b'[ 74%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.557023] (hw4_interfaces) StdoutLine: {'line': b'[ 74%] Built target hw4_interfaces\n'}
+[6.575327] (hw4_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.635555] (-) TimerEvent: {}
+[6.736586] (-) TimerEvent: {}
+[6.837177] (-) TimerEvent: {}
+[6.938759] (-) TimerEvent: {}
+[7.040342] (-) TimerEvent: {}
+[7.050413] (hw4_interfaces) StdoutLine: {'line': b'[ 77%] Built target hw4_interfaces__py\n'}
+[7.069198] (hw4_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw4_interfaces/action/_power_of_two_s.c.o\x1b[0m\n'}
+[7.140629] (-) TimerEvent: {}
+[7.242064] (-) TimerEvent: {}
+[7.276530] (hw4_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libhw4_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.342205] (-) TimerEvent: {}
+[7.382088] (hw4_interfaces) StdoutLine: {'line': b'[ 82%] Built target hw4_interfaces__rosidl_generator_py\n'}
+[7.400204] (hw4_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.400519] (hw4_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.400639] (hw4_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.442375] (-) TimerEvent: {}
+[7.508748] (hw4_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.509105] (hw4_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.509299] (hw4_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.542533] (-) TimerEvent: {}
+[7.587653] (hw4_interfaces) StdoutLine: {'line': b'[100%] Built target hw4_interfaces_s__rosidl_typesupport_c\n'}
+[7.587957] (hw4_interfaces) StdoutLine: {'line': b'[100%] Built target hw4_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[7.588135] (hw4_interfaces) StdoutLine: {'line': b'[100%] Built target hw4_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[7.602032] (hw4_interfaces) CommandEnded: {'returncode': 0}
+[7.602941] (hw4_interfaces) JobProgress: {'identifier': 'hw4_interfaces', 'progress': 'install'}
+[7.613592] (hw4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/hw4_interfaces'], 'cwd': '/home/user/ros2_ws/build/hw4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-690844a5-f6c7-4dad-983b-3d136c91e9e5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw4_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[7.621218] (hw4_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.623112] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/rosidl_interfaces/hw4_interfaces\n'}
+[7.624041] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.json\n'}
+[7.624267] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.625378] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.625758] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.626179] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.h\n'}
+[7.626410] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__functions.h\n'}
+[7.626603] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__struct.h\n'}
+[7.626798] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__description.c\n'}
+[7.627027] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__functions.c\n'}
+[7.627289] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.c\n'}
+[7.627449] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/power_of_two.h\n'}
+[7.627603] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg\n'}
+[7.628024] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.628551] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/library_path.sh\n'}
+[7.628757] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/library_path.dsv\n'}
+[7.629341] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_c.so\n'}
+[7.629830] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.629993] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.630310] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.630393] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.630453] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_fastrtps_c.h\n'}
+[7.630565] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg\n'}
+[7.630632] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.630686] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.630991] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.631202] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.631329] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.631387] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.631566] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_introspection_c.h\n'}
+[7.631627] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.c\n'}
+[7.631735] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg\n'}
+[7.631793] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.631847] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.632085] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.632344] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_c.so\n'}
+[7.632497] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.632905] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.632994] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.633059] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.633213] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__struct.hpp\n'}
+[7.633500] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__builder.hpp\n'}
+[7.633663] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__traits.hpp\n'}
+[7.633808] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.hpp\n'}
+[7.633867] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/power_of_two.hpp\n'}
+[7.633922] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg\n'}
+[7.634209] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.634279] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.634332] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.634383] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.634434] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/dds_fastrtps\n'}
+[7.634555] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.634747] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg\n'}
+[7.634952] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.635100] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.635618] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.635936] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces\n'}
+[7.636053] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action\n'}
+[7.636388] (hw4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail\n'}
+[7.636466] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.cpp\n'}
+[7.636525] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.636578] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.636978] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.637115] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.637539] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.637682] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/pythonpath.sh\n'}
+[7.637900] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/pythonpath.dsv\n'}
+[7.638127] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info\n'}
+[7.639146] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[7.639341] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[7.639552] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[7.639706] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[7.639812] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces\n'}
+[7.640159] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.640384] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.640614] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.640883] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action\n'}
+[7.641222] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two_s.c\n'}
+[7.641428] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two.py\n'}
+[7.641638] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/__init__.py\n'}
+[7.641820] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.642015] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.642231] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.642454] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/__init__.py\n'}
+[7.642526] (-) TimerEvent: {}
+[7.683475] (hw4_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces'...\n"}
+[7.683778] (hw4_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/__init__.py'...\n"}
+[7.683888] (hw4_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action'...\n"}
+[7.683979] (hw4_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/__init__.py'...\n"}
+[7.684029] (hw4_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two.py'...\n"}
+[7.688665] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.689204] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.689628] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.689838] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.690037] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.690341] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[7.690528] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_py.so\n'}
+[7.690831] (hw4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.691007] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust\n'}
+[7.691474] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/build.rs\n'}
+[7.691624] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/Cargo.toml\n'}
+[7.691772] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src\n'}
+[7.692171] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action\n'}
+[7.692599] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action/rmw.rs\n'}
+[7.693011] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/lib.rs\n'}
+[7.693278] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action.rs\n'}
+[7.693571] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.idl\n'}
+[7.693762] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.action\n'}
+[7.694005] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/package_run_dependencies/hw4_interfaces\n'}
+[7.694343] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/parent_prefix_path/hw4_interfaces\n'}
+[7.694545] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/ament_prefix_path.sh\n'}
+[7.694704] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.694888] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/path.sh\n'}
+[7.695057] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/path.dsv\n'}
+[7.695236] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.bash\n'}
+[7.695416] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.sh\n'}
+[7.695721] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.zsh\n'}
+[7.696024] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.dsv\n'}
+[7.696098] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.dsv\n'}
+[7.696547] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/packages/hw4_interfaces\n'}
+[7.697132] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.697433] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.697608] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.697861] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.697936] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.698095] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.698241] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.698509] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.698689] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.698874] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.699047] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.699109] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.699320] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.699406] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.699576] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.699746] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.699988] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.700161] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.700369] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.700491] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.700656] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.700906] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.701080] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.701257] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.701433] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.701598] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfacesConfig.cmake\n'}
+[7.701777] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfacesConfig-version.cmake\n'}
+[7.701960] (hw4_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.xml\n'}
+[7.704211] (hw4_interfaces) CommandEnded: {'returncode': 0}
+[7.732665] (hw4_interfaces) JobEnded: {'identifier': 'hw4_interfaces', 'rc': 0}
+[7.733580] (hw4_powers) JobStarted: {'identifier': 'hw4_powers'}
+[7.742722] (-) TimerEvent: {}
+[7.843063] (-) TimerEvent: {}
+[7.943484] (-) TimerEvent: {}
+[8.043859] (-) TimerEvent: {}
+[8.144212] (-) TimerEvent: {}
+[8.244581] (-) TimerEvent: {}
+[8.345097] (-) TimerEvent: {}
+[8.445412] (-) TimerEvent: {}
+[8.545705] (-) TimerEvent: {}
+[8.646000] (-) TimerEvent: {}
+[8.746340] (-) TimerEvent: {}
+[8.846710] (-) TimerEvent: {}
+[8.883449] (hw4_powers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/hw4_powers', 'build', '--build-base', '/home/user/ros2_ws/build/hw4_powers/build', 'install', '--record', '/home/user/ros2_ws/build/hw4_powers/install.log', '--install-scripts', '$base/lib/hw4_powers', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/hw4/hw4_powers', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/hw4_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-690844a5-f6c7-4dad-983b-3d136c91e9e5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw4_powers', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/hw4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[8.946850] (-) TimerEvent: {}
+[9.047217] (-) TimerEvent: {}
+[9.107021] (hw4_powers) StdoutLine: {'line': b'running egg_info\n'}
+[9.107417] (hw4_powers) StdoutLine: {'line': b'creating ../../../build/hw4_powers/hw4_powers.egg-info\n'}
+[9.122557] (hw4_powers) StdoutLine: {'line': b'writing ../../../build/hw4_powers/hw4_powers.egg-info/PKG-INFO\n'}
+[9.122861] (hw4_powers) StdoutLine: {'line': b'writing dependency_links to ../../../build/hw4_powers/hw4_powers.egg-info/dependency_links.txt\n'}
+[9.123259] (hw4_powers) StdoutLine: {'line': b'writing entry points to ../../../build/hw4_powers/hw4_powers.egg-info/entry_points.txt\n'}
+[9.123371] (hw4_powers) StdoutLine: {'line': b'writing requirements to ../../../build/hw4_powers/hw4_powers.egg-info/requires.txt\n'}
+[9.123608] (hw4_powers) StdoutLine: {'line': b'writing top-level names to ../../../build/hw4_powers/hw4_powers.egg-info/top_level.txt\n'}
+[9.123702] (hw4_powers) StdoutLine: {'line': b"writing manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'\n"}
+[9.147324] (-) TimerEvent: {}
+[9.155367] (hw4_powers) StdoutLine: {'line': b"reading manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'\n"}
+[9.156080] (hw4_powers) StdoutLine: {'line': b"writing manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'\n"}
+[9.156958] (hw4_powers) StdoutLine: {'line': b'running build\n'}
+[9.157110] (hw4_powers) StdoutLine: {'line': b'running build_py\n'}
+[9.157253] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw4_powers/build\n'}
+[9.157804] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw4_powers/build/lib\n'}
+[9.158189] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers\n'}
+[9.158590] (hw4_powers) StdoutLine: {'line': b'copying hw4_powers/power_server.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers\n'}
+[9.158778] (hw4_powers) StdoutLine: {'line': b'copying hw4_powers/power_client.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers\n'}
+[9.158939] (hw4_powers) StdoutLine: {'line': b'copying hw4_powers/__init__.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers\n'}
+[9.159143] (hw4_powers) StdoutLine: {'line': b'running install\n'}
+[9.164085] (hw4_powers) StdoutLine: {'line': b'running install_lib\n'}
+[9.179222] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers\n'}
+[9.179719] (hw4_powers) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/power_server.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers\n'}
+[9.180107] (hw4_powers) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/power_client.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers\n'}
+[9.180215] (hw4_powers) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/__init__.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers\n'}
+[9.180452] (hw4_powers) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/power_server.py to power_server.cpython-312.pyc\n'}
+[9.181507] (hw4_powers) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/power_client.py to power_client.cpython-312.pyc\n'}
+[9.181979] (hw4_powers) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/__init__.py to __init__.cpython-312.pyc\n'}
+[9.182158] (hw4_powers) StdoutLine: {'line': b'running install_data\n'}
+[9.182308] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw4_powers/share/ament_index\n'}
+[9.182759] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index\n'}
+[9.183124] (hw4_powers) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index/packages\n'}
+[9.183549] (hw4_powers) StdoutLine: {'line': b'copying resource/hw4_powers -> /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index/packages\n'}
+[9.183903] (hw4_powers) StdoutLine: {'line': b'copying package.xml -> /home/user/ros2_ws/install/hw4_powers/share/hw4_powers\n'}
+[9.184043] (hw4_powers) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.201123] (hw4_powers) StdoutLine: {'line': b'Copying ../../../build/hw4_powers/hw4_powers.egg-info to /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers-0.0.1-py3.12.egg-info\n'}
+[9.202666] (hw4_powers) StdoutLine: {'line': b'running install_scripts\n'}
+[9.247460] (-) TimerEvent: {}
+[9.302247] (hw4_powers) StdoutLine: {'line': b'Installing power_client script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers\n'}
+[9.302851] (hw4_powers) StdoutLine: {'line': b'Installing power_server script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers\n'}
+[9.303178] (hw4_powers) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/hw4_powers/install.log'\n"}
+[9.332791] (hw4_powers) CommandEnded: {'returncode': 0}
+[9.338980] (hw4_powers) JobEnded: {'identifier': 'hw4_powers', 'rc': 0}
+[9.340161] (-) EventReactorShutdown: {}

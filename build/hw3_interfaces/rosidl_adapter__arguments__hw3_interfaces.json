@@ -1,0 +1,6 @@
+{
+  "package_name": "hw3_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/hw3/hw3_interfaces:srv/CheckAnagram.srv"
+  ]
+}

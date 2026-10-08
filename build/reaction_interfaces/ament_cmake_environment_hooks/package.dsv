@@ -1,0 +1,4 @@
+source;share/reaction_interfaces/local_setup.bash
+source;share/reaction_interfaces/local_setup.dsv
+source;share/reaction_interfaces/local_setup.sh
+source;share/reaction_interfaces/local_setup.zsh

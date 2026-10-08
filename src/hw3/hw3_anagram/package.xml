@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hw3_anagram</name>
+  <version>0.0.1</version>
+  <description>HW3: anagram service server and client</description>
+  <maintainer email="student@example.com">Matniyazov Ikhlasbek</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>hw3_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

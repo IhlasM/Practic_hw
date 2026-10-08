@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from reaction_interfaces/srv/ChangePenColor.srv
+// generated code does not contain a copyright notice
+
+
+module reaction_interfaces {
+  module srv {
+    struct ChangePenColor_Request {
+      string name;
+
+      uint8 r;
+
+      uint8 g;
+
+      uint8 b;
+
+      uint8 width;
+    };
+    struct ChangePenColor_Response {
+      boolean success;
+    };
+  };
+};

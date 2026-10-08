@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from reaction_interfaces/action/RandomWalk.action
+// generated code does not contain a copyright notice
+
+
+module reaction_interfaces {
+  module action {
+    struct RandomWalk_Goal {
+      string name;
+
+      float duration;
+    };
+    struct RandomWalk_Result {
+      boolean completed;
+    };
+    struct RandomWalk_Feedback {
+      float time_left;
+    };
+  };
+};

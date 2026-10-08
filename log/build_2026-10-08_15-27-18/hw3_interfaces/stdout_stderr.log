@@ -1,0 +1,24 @@
+[  2%] Built target hw3_interfaces__rosidl_generator_type_description
+[  5%] Built target hw3_interfaces__rs
+[  5%] Built target ament_cmake_python_copy_hw3_interfaces
+[  8%] Built target hw3_interfaces__cpp
+[ 22%] Built target hw3_interfaces__rosidl_generator_c
+[ 31%] Built target hw3_interfaces__rosidl_typesupport_introspection_c
+[ 40%] Built target hw3_interfaces__rosidl_typesupport_c
+[ 48%] Built target hw3_interfaces__rosidl_typesupport_cpp
+[ 57%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target hw3_interfaces__rosidl_typesupport_introspection_cpp
+[ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target hw3_interfaces
+[ 77%] Built target hw3_interfaces__py
+[ 82%] Built target hw3_interfaces__rosidl_generator_py
+[ 88%] Built target hw3_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 94%] Built target hw3_interfaces_s__rosidl_typesupport_c
+[100%] Built target hw3_interfaces_s__rosidl_typesupport_introspection_c
+running egg_info
+writing hw3_interfaces.egg-info/PKG-INFO
+writing dependency_links to hw3_interfaces.egg-info/dependency_links.txt
+writing top-level names to hw3_interfaces.egg-info/top_level.txt
+reading manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_hw3_interfaces_egg

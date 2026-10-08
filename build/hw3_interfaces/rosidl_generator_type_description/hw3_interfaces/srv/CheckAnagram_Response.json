@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw3_interfaces/srv/CheckAnagram_Response",
+      "fields": [
+        {
+          "name": "is_anagram",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw3_interfaces/srv/CheckAnagram_Response",
+      "hash_string": "RIHS01_3a53150c461deb7bf2118bc55ad1b8e99dd906c4ae7612c198344fff5f69d273"
+    }
+  ]
+}

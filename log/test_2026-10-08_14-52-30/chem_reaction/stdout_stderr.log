@@ -1,0 +1,12 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/user/ros2_ws/build/chem_reaction/.pytest_cache
+rootdir: /home/user/ros2_ws/src/project/chem_reaction
+plugins: ament-xmllint-0.17.5, launch-testing-3.4.12, launch-testing-ros-0.26.13, ament-flake8-0.17.5, ament-lint-0.17.5, ament-copyright-0.17.5, ament-pep257-0.17.5, colcon-core-0.21.3, cov-4.1.0
+[1mcollecting ... [0m[1m
+collected 25 items                                                             [0m
+
+test/test_logic.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                             [100%][0m
+
+---- generated xml file: /home/user/ros2_ws/build/chem_reaction/pytest.xml -----
+[32m============================== [32m[1m25 passed[0m[32m in 0.03s[0m[32m ==============================[0m

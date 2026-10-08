@@ -1,0 +1,696 @@
+[0.156s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.156s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7051e0663890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7051e0732240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7051e0732240>>)
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.186s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2_octal) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw2_octal' with type 'ros.ament_python' and name 'hw2_octal'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_anagram) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw3/hw3_anagram' with type 'ros.ament_python' and name 'hw3_anagram'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3/hw3_interfaces) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw3/hw3_interfaces' with type 'ros.ament_cmake' and name 'hw3_interfaces'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_interfaces) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw4/hw4_interfaces' with type 'ros.ament_cmake' and name 'hw4_interfaces'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4/hw4_powers) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw4/hw4_powers' with type 'ros.ament_python' and name 'hw4_powers'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_interfaces) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/chem_interfaces' with type 'ros.ament_cmake' and name 'chem_interfaces'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/chem_reaction) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/chem_reaction' with type 'ros.ament_python' and name 'chem_reaction'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/chemical_reaction_sim) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_1/chemical_reaction_sim' with type 'ros.ament_python' and name 'chemical_reaction_sim'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_1/reaction_interfaces) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_1/reaction_interfaces' with type 'ros.ament_cmake' and name 'reaction_interfaces'
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/user/ros2_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'chem_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'chem_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/chem_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/chem_interfaces', 'merge_install': False, 'path': '/home/user/ros2_ws/src/project/chem_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw2_octal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'hw2_octal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/hw2_octal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/hw2_octal', 'merge_install': False, 'path': '/home/user/ros2_ws/src/hw2_octal', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'hw3_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/hw3_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/hw3_interfaces', 'merge_install': False, 'path': '/home/user/ros2_ws/src/hw3/hw3_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'hw4_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'hw4_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/hw4_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/hw4_interfaces', 'merge_install': False, 'path': '/home/user/ros2_ws/src/hw4/hw4_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'reaction_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'reaction_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/reaction_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/reaction_interfaces', 'merge_install': False, 'path': '/home/user/ros2_ws/src/project_1/reaction_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chem_reaction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'chem_reaction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/chem_reaction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/chem_reaction', 'merge_install': False, 'path': '/home/user/ros2_ws/src/project/chem_reaction', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'chemical_reaction_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'chemical_reaction_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/chemical_reaction_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/chemical_reaction_sim', 'merge_install': False, 'path': '/home/user/ros2_ws/src/project_1/chemical_reaction_sim', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw3_anagram' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'hw3_anagram' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/hw3_anagram', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/hw3_anagram', 'merge_install': False, 'path': '/home/user/ros2_ws/src/hw3/hw3_anagram', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'hw4_powers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'hw4_powers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/hw4_powers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/hw4_powers', 'merge_install': False, 'path': '/home/user/ros2_ws/src/hw4/hw4_powers', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/project/chem_interfaces' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/project/chem_interfaces'
+[0.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/hw3/hw3_interfaces' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/hw3/hw3_interfaces'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/hw4/hw4_interfaces' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/hw4/hw4_interfaces'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/project_1/reaction_interfaces' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/project_1/reaction_interfaces'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/hw2_octal' with build type 'ament_python'
+[0.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_octal', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/chem_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/chem_interfaces -- -j16 -l16
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw4_interfaces -- -j16 -l16
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/reaction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/project_1/reaction_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/reaction_interfaces
+[0.588s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/hw2_octal'
+[0.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw4_interfaces -- -j16 -l16
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw4_interfaces
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/chem_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/chem_interfaces -- -j16 -l16
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/chem_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/chem_interfaces
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces
+[0.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_interfaces)
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces' for CMake module files
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw4_interfaces
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces' for CMake config files
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'cmake_prefix_path')
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.sh'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib'
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'ld_library_path_lib')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.dsv'
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.sh'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/bin'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib/pkgconfig/hw4_interfaces.pc'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages'
+[0.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'pythonpath')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.sh'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/bin'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.bash'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.zsh'
+[0.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw4_interfaces/share/colcon-core/packages/hw4_interfaces)
+[0.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_interfaces)
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces' for CMake module files
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces' for CMake config files
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'cmake_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/cmake_prefix_path.sh'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib'
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'ld_library_path_lib')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/ld_library_path_lib.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib/pkgconfig/hw4_interfaces.pc'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages'
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_interfaces', 'pythonpath')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/hook/pythonpath.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_interfaces/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw4_interfaces/share/colcon-core/packages/hw4_interfaces)
+[0.895s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/hw4/hw4_powers' with build type 'ament_python'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_powers', 'ament_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/ament_prefix_path.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/ament_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/ament_prefix_path.sh'
+[0.898s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.898s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chem_interfaces)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces' for CMake module files
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/chem_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/chem_interfaces
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces' for CMake config files
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'cmake_prefix_path')
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.sh'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib'
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'ld_library_path_lib')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/bin'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib/pkgconfig/chem_interfaces.pc'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages'
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'pythonpath')
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.sh'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.bash'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.zsh'
+[0.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/chem_interfaces/share/colcon-core/packages/chem_interfaces)
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chem_interfaces)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/cmake_prefix_path.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib'
+[0.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'ld_library_path_lib')
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/ld_library_path_lib.sh'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib/pkgconfig/chem_interfaces.pc'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages'
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_interfaces', 'pythonpath')
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.dsv'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/hook/pythonpath.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_interfaces/bin'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_interfaces/share/chem_interfaces/package.zsh'
+[0.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/chem_interfaces/share/colcon-core/packages/chem_interfaces)
+[0.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3_interfaces)
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces' for CMake module files
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces' for CMake config files
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.sh'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib'
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'ld_library_path_lib')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/bin'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib/pkgconfig/hw3_interfaces.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages'
+[0.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'pythonpath')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/bin'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.bash'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw3_interfaces/share/colcon-core/packages/hw3_interfaces)
+[0.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3_interfaces)
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces' for CMake module files
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces' for CMake config files
+[0.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'cmake_prefix_path')
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.sh'
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib'
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'ld_library_path_lib')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.sh'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/bin'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib/pkgconfig/hw3_interfaces.pc'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages'
+[0.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'pythonpath')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.ps1'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.sh'
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_interfaces/bin'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.sh'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.bash'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.zsh'
+[0.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw3_interfaces/share/colcon-core/packages/hw3_interfaces)
+[0.945s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/project/chem_reaction' with build type 'ament_python'
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_reaction', 'ament_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/ament_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/ament_prefix_path.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/ament_prefix_path.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.951s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/hw3/hw3_anagram' with build type 'ament_python'
+[0.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_anagram', 'ament_prefix_path')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/ament_prefix_path.ps1'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/ament_prefix_path.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/ament_prefix_path.sh'
+[0.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/hw4/hw4_powers'
+[1.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.414s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/project/chem_reaction'
+[1.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.593s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/hw3/hw3_anagram'
+[1.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.598s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, bdist_rpm, alias, bdist_egg, extract_messages, editable_wheel, bdist, develop, upload, install, install_data, check, dist_info, test, init_catalog, saveopts, install_scripts, install_headers, symlink_data, build_ext, bdist_dumb, sdist, egg_info, install_lib, install_egg_info, build_py, rotate, easy_install, clean, compile_catalog, update_catalog, setopt, bdist_wheel, build_clib, build, build_scripts, upload_docs
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/hw2_octal': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/hw2_octal/build
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/hw2_octal' returned '0': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user/ros2_ws/build/hw2_octal/build
+[2.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/hw2_octal': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_octal build --build-base /home/user/ros2_ws/build/hw2_octal/build install --record /home/user/ros2_ws/build/hw2_octal/install.log --install-scripts $base/lib/hw2_octal --single-version-externally-managed install_data --force
+[2.119s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, bdist_rpm, alias, bdist_egg, extract_messages, editable_wheel, bdist, develop, upload, install, install_data, check, dist_info, test, init_catalog, saveopts, install_scripts, install_headers, symlink_data, build_ext, bdist_dumb, sdist, egg_info, install_lib, install_egg_info, build_py, rotate, easy_install, clean, compile_catalog, update_catalog, setopt, bdist_wheel, build_clib, build, build_scripts, upload_docs
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/hw4/hw4_powers': PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data
+[2.131s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, bdist_rpm, alias, bdist_egg, extract_messages, editable_wheel, bdist, develop, upload, install, install_data, check, dist_info, test, init_catalog, saveopts, install_scripts, install_headers, symlink_data, build_ext, bdist_dumb, sdist, egg_info, install_lib, install_egg_info, build_py, rotate, easy_install, clean, compile_catalog, update_catalog, setopt, bdist_wheel, build_clib, build, build_scripts, upload_docs
+[2.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/project/chem_reaction': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/home/user/ros2_ws/install/chem_interfaces/lib:/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/user/ros2_ws/build/chem_reaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chem_reaction build --build-base /home/user/ros2_ws/build/chem_reaction/build install --record /home/user/ros2_ws/build/chem_reaction/install.log --install-scripts $base/lib/chem_reaction --single-version-externally-managed install_data
+[2.219s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, bdist_rpm, alias, bdist_egg, extract_messages, editable_wheel, bdist, develop, upload, install, install_data, check, dist_info, test, init_catalog, saveopts, install_scripts, install_headers, symlink_data, build_ext, bdist_dumb, sdist, egg_info, install_lib, install_egg_info, build_py, rotate, easy_install, clean, compile_catalog, update_catalog, setopt, bdist_wheel, build_clib, build, build_scripts, upload_docs
+[2.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/hw3/hw3_anagram': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/chem_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/home/user/ros2_ws/install/hw3_interfaces/lib:/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/chem_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/user/ros2_ws/build/hw3_anagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw3_anagram build --build-base /home/user/ros2_ws/build/hw3_anagram/build install --record /home/user/ros2_ws/build/hw3_anagram/install.log --install-scripts $base/lib/hw3_anagram --single-version-externally-managed install_data
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal' for CMake module files
+[2.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/hw2_octal' returned '0': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2_octal build --build-base /home/user/ros2_ws/build/hw2_octal/build install --record /home/user/ros2_ws/build/hw2_octal/install.log --install-scripts $base/lib/hw2_octal --single-version-externally-managed install_data --force
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal' for CMake config files
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal/lib'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal/bin'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal/lib/pkgconfig/hw2_octal.pc'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages'
+[2.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_octal', 'pythonpath')
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/pythonpath.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/pythonpath.dsv'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/hook/pythonpath.sh'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw2_octal/bin'
+[2.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2_octal)
+[2.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/package.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/package.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/package.sh'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/package.bash'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw2_octal/share/hw2_octal/package.zsh'
+[2.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw2_octal/share/colcon-core/packages/hw2_octal)
+[2.621s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers' for CMake module files
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/hw4/hw4_powers' returned '0': PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data
+[2.622s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers' for CMake config files
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers/lib'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers/bin'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers/lib/pkgconfig/hw4_powers.pc'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages'
+[2.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_powers', 'pythonpath')
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/pythonpath.ps1'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/pythonpath.dsv'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/hook/pythonpath.sh'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw4_powers/bin'
+[2.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_powers)
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/package.ps1'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/package.dsv'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/package.sh'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/package.bash'
+[2.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw4_powers/share/hw4_powers/package.zsh'
+[2.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw4_powers/share/colcon-core/packages/hw4_powers)
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction' for CMake module files
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/project/chem_reaction' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/chem_interfaces:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/home/user/ros2_ws/install/chem_interfaces/lib:/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/user/ros2_ws/build/chem_reaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chem_reaction build --build-base /home/user/ros2_ws/build/chem_reaction/build install --record /home/user/ros2_ws/build/chem_reaction/install.log --install-scripts $base/lib/chem_reaction --single-version-externally-managed install_data
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction' for CMake config files
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction/lib'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction/bin'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction/lib/pkgconfig/chem_reaction.pc'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages'
+[2.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('chem_reaction', 'pythonpath')
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/pythonpath.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/pythonpath.dsv'
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/hook/pythonpath.sh'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/chem_reaction/bin'
+[2.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chem_reaction)
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/package.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/package.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/package.sh'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/package.bash'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/chem_reaction/share/chem_reaction/package.zsh'
+[2.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/chem_reaction/share/colcon-core/packages/chem_reaction)
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram' for CMake module files
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/hw3/hw3_anagram' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hw3_interfaces:/home/user/ros2_ws/install/hw4_interfaces:/home/user/ros2_ws/install/chem_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/home/user/ros2_ws/install/hw3_interfaces/lib:/home/user/ros2_ws/install/hw4_interfaces/lib:/home/user/ros2_ws/install/chem_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/user/ros2_ws/build/hw3_anagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw3_anagram build --build-base /home/user/ros2_ws/build/hw3_anagram/build install --record /home/user/ros2_ws/build/hw3_anagram/install.log --install-scripts $base/lib/hw3_anagram --single-version-externally-managed install_data
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram' for CMake config files
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram/lib'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram/bin'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram/lib/pkgconfig/hw3_anagram.pc'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages'
+[2.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_anagram', 'pythonpath')
+[2.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/pythonpath.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/pythonpath.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/hook/pythonpath.sh'
+[2.732s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/hw3_anagram/bin'
+[2.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3_anagram)
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/package.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/package.dsv'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/package.sh'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/package.bash'
+[2.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram/package.zsh'
+[2.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/hw3_anagram/share/colcon-core/packages/hw3_anagram)
+[4.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/reaction_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/project_1/reaction_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/reaction_interfaces
+[4.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/reaction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/reaction_interfaces -- -j16 -l16
+[8.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/reaction_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/reaction_interfaces -- -j16 -l16
+[8.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/reaction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/reaction_interfaces
+[8.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reaction_interfaces)
+[8.824s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces' for CMake module files
+[8.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/reaction_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/hw4_powers:/home/user/ros2_ws/install/hw3_anagram:/home/user/ros2_ws/install/hw2_octal:/home/user/ros2_ws/install/chem_reaction:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/reaction_interfaces
+[8.825s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces' for CMake config files
+[8.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'cmake_prefix_path')
+[8.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.ps1'
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.dsv'
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.sh'
+[8.827s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib'
+[8.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'ld_library_path_lib')
+[8.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.ps1'
+[8.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.dsv'
+[8.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.sh'
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/bin'
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib/pkgconfig/reaction_interfaces.pc'
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages'
+[8.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'pythonpath')
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.ps1'
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.dsv'
+[8.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.sh'
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/bin'
+[8.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.ps1'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.dsv'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.sh'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.bash'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.zsh'
+[8.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/reaction_interfaces/share/colcon-core/packages/reaction_interfaces)
+[8.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reaction_interfaces)
+[8.832s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces' for CMake module files
+[8.832s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces' for CMake config files
+[8.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'cmake_prefix_path')
+[8.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.ps1'
+[8.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.dsv'
+[8.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/cmake_prefix_path.sh'
+[8.834s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib'
+[8.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'ld_library_path_lib')
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.ps1'
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.dsv'
+[8.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/ld_library_path_lib.sh'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/bin'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib/pkgconfig/reaction_interfaces.pc'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages'
+[8.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('reaction_interfaces', 'pythonpath')
+[8.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.ps1'
+[8.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.dsv'
+[8.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/hook/pythonpath.sh'
+[8.837s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/reaction_interfaces/bin'
+[8.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.ps1'
+[8.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.dsv'
+[8.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.sh'
+[8.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.bash'
+[8.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/reaction_interfaces/share/reaction_interfaces/package.zsh'
+[8.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/reaction_interfaces/share/colcon-core/packages/reaction_interfaces)
+[8.839s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim' with build type 'ament_python'
+[8.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('chemical_reaction_sim', 'ament_prefix_path')
+[8.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chemical_reaction_sim/share/chemical_reaction_sim/hook/ament_prefix_path.ps1'
+[8.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/chemical_reaction_sim/share/chemical_reaction_sim/hook/ament_prefix_path.dsv'
+[8.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/chemical_reaction_sim/share/chemical_reaction_sim/hook/ament_prefix_path.sh'
+[8.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.124s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim'
+[9.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.683s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: register, bdist_rpm, alias, bdist_egg, extract_messages, editable_wheel, bdist, develop, upload, install, install_data, check, dist_info, test, init_catalog, saveopts, install_scripts, install_headers, symlink_data, build_ext, bdist_dumb, sdist, egg_info, install_lib, install_egg_info, build_py, rotate, easy_install, clean, compile_catalog, update_catalog, setopt, bdist_wheel, build_clib, build, build_scripts, upload_docs
+[9.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/reaction_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chemical_reaction_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chemical_reaction_sim/lib/python3.12/site-packages:/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chemical_reaction_sim build --build-base /home/user/ros2_ws/build/chemical_reaction_sim/build install --record /home/user/ros2_ws/build/chemical_reaction_sim/install.log --single-version-externally-managed install_data
+[9.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/project_1/chemical_reaction_sim' returned '1': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/reaction_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/reaction_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/chemical_reaction_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/chemical_reaction_sim/lib/python3.12/site-packages:/home/user/ros2_ws/install/reaction_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chemical_reaction_sim build --build-base /home/user/ros2_ws/build/chemical_reaction_sim/build install --record /home/user/ros2_ws/build/chemical_reaction_sim/install.log --single-version-externally-managed install_data
+[9.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[9.973s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.012s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.013s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.014s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[10.014s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[10.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[10.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[10.017s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[10.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[10.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[10.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[10.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[10.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "reaction_interfaces__rs",
+		"source" : "/home/user/ros2_ws/build/reaction_interfaces/reaction_interfaces__rs"
+	}
+}

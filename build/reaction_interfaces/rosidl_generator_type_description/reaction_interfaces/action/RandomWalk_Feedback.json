@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "reaction_interfaces/action/RandomWalk_Feedback",
+      "fields": [
+        {
+          "name": "time_left",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "reaction_interfaces/action/RandomWalk_Feedback",
+      "hash_string": "RIHS01_ce55ff2956c2d9f20c7f07210c1dcd97fa833e9310f5804e0723ab3b4bcadec6"
+    }
+  ]
+}

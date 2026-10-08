@@ -1,0 +1,32 @@
+running egg_info
+writing ../../../build/chem_reaction/chem_reaction.egg-info/PKG-INFO
+writing dependency_links to ../../../build/chem_reaction/chem_reaction.egg-info/dependency_links.txt
+writing entry points to ../../../build/chem_reaction/chem_reaction.egg-info/entry_points.txt
+writing requirements to ../../../build/chem_reaction/chem_reaction.egg-info/requires.txt
+writing top-level names to ../../../build/chem_reaction/chem_reaction.egg-info/top_level.txt
+reading manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+writing manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+running build
+running build_py
+copying chem_reaction/reaction_manager.py -> /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+copying chem_reaction/turtle_motion.py -> /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+copying chem_reaction/reaction.py -> /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+running install
+running install_lib
+copying /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction/reaction_manager.py -> /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+copying /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction/turtle_motion.py -> /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+copying /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction/reaction.py -> /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+byte-compiling /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction/reaction_manager.py to reaction_manager.cpython-312.pyc
+byte-compiling /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction/turtle_motion.py to turtle_motion.cpython-312.pyc
+byte-compiling /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction/reaction.py to reaction.cpython-312.pyc
+running install_data
+copying launch/chem.launch.py -> /home/user/ros2_ws/install/chem_reaction/share/chem_reaction/launch
+running install_egg_info
+removing '/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../../build/chem_reaction/chem_reaction.egg-info to /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info
+running install_scripts
+Installing collision_detector script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+Installing reaction_manager script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+Installing turtle_motion script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+Installing turtle_setup script to /home/user/ros2_ws/install/chem_reaction/lib/chem_reaction
+writing list of installed files to '/home/user/ros2_ws/build/chem_reaction/install.log'

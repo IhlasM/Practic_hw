@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hw4_powers</name>
+  <version>0.0.1</version>
+  <description>HW4: action server and client for powers of two</description>
+  <maintainer email="student@example.com">Matniyazov Ikhlasbek</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>hw4_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

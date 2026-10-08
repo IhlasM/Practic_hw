@@ -1,0 +1,6 @@
+setup.py
+reaction_interfaces/__init__.py
+reaction_interfaces.egg-info/PKG-INFO
+reaction_interfaces.egg-info/SOURCES.txt
+reaction_interfaces.egg-info/dependency_links.txt
+reaction_interfaces.egg-info/top_level.txt

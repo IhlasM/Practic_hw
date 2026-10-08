@@ -1,0 +1,4 @@
+bool randomize_positions
+---
+bool success
+string message

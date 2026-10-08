@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hw3_interfaces/srv/CheckAnagram.srv
+// generated code does not contain a copyright notice
+
+
+module hw3_interfaces {
+  module srv {
+    struct CheckAnagram_Request {
+      string first;
+
+      string second;
+    };
+    struct CheckAnagram_Response {
+      boolean is_anagram;
+    };
+  };
+};

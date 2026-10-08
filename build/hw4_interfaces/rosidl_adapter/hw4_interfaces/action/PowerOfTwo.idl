@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from hw4_interfaces/action/PowerOfTwo.action
+// generated code does not contain a copyright notice
+
+
+module hw4_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal: массив натуральных чисел")
+    struct PowerOfTwo_Goal {
+      sequence<int64> numbers;
+    };
+    @verbatim (language="comment", text=
+      "Result: массив степеней двойки")
+    struct PowerOfTwo_Result {
+      sequence<int64> powers;
+    };
+    @verbatim (language="comment", text=
+      "Feedback: текущее число и найденная степень")
+    struct PowerOfTwo_Feedback {
+      int64 number;
+
+      int64 power;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hw3_interfaces__rs",
+		"source" : "/home/user/ros2_ws/build/hw3_interfaces/hw3_interfaces__rs"
+	}
+}

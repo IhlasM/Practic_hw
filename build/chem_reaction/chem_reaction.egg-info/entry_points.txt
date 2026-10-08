@@ -1,0 +1,5 @@
+[console_scripts]
+collision_detector = chem_reaction.collision_detector:main
+reaction_manager = chem_reaction.reaction_manager:main
+turtle_motion = chem_reaction.turtle_motion:main
+turtle_setup = chem_reaction.turtle_setup:main

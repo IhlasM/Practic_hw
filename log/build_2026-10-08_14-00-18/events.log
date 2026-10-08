@@ -1,0 +1,378 @@
+[0.000000] (-) TimerEvent: {}
+[0.000875] (-) JobUnselected: {'identifier': 'hw2_octal'}
+[0.000940] (hw3_interfaces) JobQueued: {'identifier': 'hw3_interfaces', 'dependencies': OrderedDict()}
+[0.000962] (hw3_anagram) JobQueued: {'identifier': 'hw3_anagram', 'dependencies': OrderedDict({'hw3_interfaces': '/home/user/ros2_ws/install/hw3_interfaces'})}
+[0.000978] (hw3_interfaces) JobStarted: {'identifier': 'hw3_interfaces'}
+[0.012081] (hw3_interfaces) JobProgress: {'identifier': 'hw3_interfaces', 'progress': 'cmake'}
+[0.014425] (hw3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/hw3/hw3_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw3_interfaces'], 'cwd': '/home/user/ros2_ws/build/hw3_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2246ba27-9001-46f8-8d9b-dcddd687626a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw3_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099816] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.291703] (hw3_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300276] (-) TimerEvent: {}
+[0.400576] (-) TimerEvent: {}
+[0.500917] (-) TimerEvent: {}
+[0.601275] (-) TimerEvent: {}
+[0.701645] (-) TimerEvent: {}
+[0.802055] (-) TimerEvent: {}
+[0.818785] (hw3_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.902138] (-) TimerEvent: {}
+[1.002449] (-) TimerEvent: {}
+[1.102855] (-) TimerEvent: {}
+[1.203173] (-) TimerEvent: {}
+[1.266816] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.303320] (-) TimerEvent: {}
+[1.403674] (-) TimerEvent: {}
+[1.476172] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.482904] (hw3_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.483790] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.484540] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.503826] (-) TimerEvent: {}
+[1.555602] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.603963] (-) TimerEvent: {}
+[1.704347] (-) TimerEvent: {}
+[1.764199] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.771042] (hw3_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.771320] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.771617] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.801734] (hw3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.804447] (-) TimerEvent: {}
+[1.904796] (-) TimerEvent: {}
+[1.930813] (hw3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.004947] (-) TimerEvent: {}
+[2.051566] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.061569] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.105067] (-) TimerEvent: {}
+[2.205430] (-) TimerEvent: {}
+[2.222929] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.280903] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.305577] (-) TimerEvent: {}
+[2.405943] (-) TimerEvent: {}
+[2.506265] (-) TimerEvent: {}
+[2.606609] (-) TimerEvent: {}
+[2.707036] (-) TimerEvent: {}
+[2.787272] (hw3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.807193] (-) TimerEvent: {}
+[2.907590] (-) TimerEvent: {}
+[3.007938] (-) TimerEvent: {}
+[3.108264] (-) TimerEvent: {}
+[3.134360] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.208436] (-) TimerEvent: {}
+[3.308804] (-) TimerEvent: {}
+[3.409153] (-) TimerEvent: {}
+[3.509859] (-) TimerEvent: {}
+[3.606328] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.610039] (-) TimerEvent: {}
+[3.612204] (hw3_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.710232] (-) TimerEvent: {}
+[3.719521] (hw3_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.810421] (-) TimerEvent: {}
+[3.910857] (-) TimerEvent: {}
+[4.011178] (-) TimerEvent: {}
+[4.111489] (-) TimerEvent: {}
+[4.147309] (hw3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.202685] (hw3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.211624] (-) TimerEvent: {}
+[4.219925] (hw3_interfaces) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[4.275829] (hw3_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.288698] (hw3_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/hw3_interfaces\n'}
+[4.298753] (hw3_interfaces) CommandEnded: {'returncode': 0}
+[4.299352] (hw3_interfaces) JobProgress: {'identifier': 'hw3_interfaces', 'progress': 'build'}
+[4.299790] (hw3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/hw3_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/user/ros2_ws/build/hw3_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2246ba27-9001-46f8-8d9b-dcddd687626a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw3_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[4.311785] (-) TimerEvent: {}
+[4.345320] (hw3_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.345625] (hw3_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.354109] (hw3_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_hw3_interfaces\n'}
+[4.411907] (-) TimerEvent: {}
+[4.507377] (hw3_interfaces) StdoutLine: {'line': b'[  5%] Built target hw3_interfaces__rosidl_generator_type_description\n'}
+[4.512044] (-) TimerEvent: {}
+[4.515916] (hw3_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.522308] (hw3_interfaces) StdoutLine: {'line': b'[  8%] Built target hw3_interfaces__rs\n'}
+[4.526776] (hw3_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.533924] (hw3_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.534651] (hw3_interfaces) StdoutLine: {'line': b'creating hw3_interfaces.egg-info\n'}
+[4.552141] (hw3_interfaces) StdoutLine: {'line': b'writing hw3_interfaces.egg-info/PKG-INFO\n'}
+[4.552467] (hw3_interfaces) StdoutLine: {'line': b'writing dependency_links to hw3_interfaces.egg-info/dependency_links.txt\n'}
+[4.552625] (hw3_interfaces) StdoutLine: {'line': b'writing top-level names to hw3_interfaces.egg-info/top_level.txt\n'}
+[4.552883] (hw3_interfaces) StdoutLine: {'line': b"writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.596053] (hw3_interfaces) StdoutLine: {'line': b"reading manifest file 'hw3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.596401] (hw3_interfaces) StdoutLine: {'line': b"writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.612169] (-) TimerEvent: {}
+[4.621504] (hw3_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_hw3_interfaces_egg\n'}
+[4.712349] (-) TimerEvent: {}
+[4.727749] (hw3_interfaces) StdoutLine: {'line': b'[ 11%] Built target hw3_interfaces__cpp\n'}
+[4.748492] (hw3_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__type_support.c.o\x1b[0m\n'}
+[4.748771] (hw3_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__description.c.o\x1b[0m\n'}
+[4.748881] (hw3_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/check_anagram__functions.c.o\x1b[0m\n'}
+[4.812511] (-) TimerEvent: {}
+[4.817740] (hw3_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libhw3_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.912308] (hw3_interfaces) StdoutLine: {'line': b'[ 22%] Built target hw3_interfaces__rosidl_generator_c\n'}
+[4.912662] (-) TimerEvent: {}
+[4.921263] (hw3_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.921490] (hw3_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.921643] (hw3_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.921733] (hw3_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.921911] (hw3_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.922343] (hw3_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.012831] (-) TimerEvent: {}
+[5.113207] (-) TimerEvent: {}
+[5.116954] (hw3_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw3_interfaces/srv/check_anagram__type_support.cpp.o\x1b[0m\n'}
+[5.129061] (hw3_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw3_interfaces/srv/check_anagram__type_support.cpp.o\x1b[0m\n'}
+[5.143062] (hw3_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw3_interfaces/srv/detail/check_anagram__type_support.c.o\x1b[0m\n'}
+[5.152507] (hw3_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw3_interfaces/srv/detail/check_anagram__type_support.cpp.o\x1b[0m\n'}
+[5.173074] (hw3_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.173362] (hw3_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw3_interfaces/srv/detail/dds_fastrtps/check_anagram__type_support.cpp.o\x1b[0m\n'}
+[5.173755] (hw3_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw3_interfaces/srv/detail/check_anagram__type_support_c.cpp.o\x1b[0m\n'}
+[5.186581] (hw3_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libhw3_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.213311] (-) TimerEvent: {}
+[5.285037] (hw3_interfaces) StdoutLine: {'line': b'[ 62%] Built target hw3_interfaces__rosidl_typesupport_c\n'}
+[5.287956] (hw3_interfaces) StdoutLine: {'line': b'[ 62%] Built target hw3_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.313434] (-) TimerEvent: {}
+[5.413843] (-) TimerEvent: {}
+[5.514233] (-) TimerEvent: {}
+[5.515339] (hw3_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.562920] (hw3_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.614408] (-) TimerEvent: {}
+[5.628160] (hw3_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.659011] (hw3_interfaces) StdoutLine: {'line': b'[ 71%] Built target hw3_interfaces__rosidl_typesupport_cpp\n'}
+[5.697102] (hw3_interfaces) StdoutLine: {'line': b'[ 71%] Built target hw3_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.714620] (-) TimerEvent: {}
+[5.726273] (hw3_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.761763] (hw3_interfaces) StdoutLine: {'line': b'[ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.814779] (-) TimerEvent: {}
+[5.851820] (hw3_interfaces) StdoutLine: {'line': b'[ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.868844] (hw3_interfaces) StdoutLine: {'line': b'[ 74%] Built target hw3_interfaces\n'}
+[5.885689] (hw3_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.914925] (-) TimerEvent: {}
+[6.015297] (-) TimerEvent: {}
+[6.115622] (-) TimerEvent: {}
+[6.134383] (hw3_interfaces) StdoutLine: {'line': b'[ 77%] Built target hw3_interfaces__py\n'}
+[6.153255] (hw3_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw3_interfaces/srv/_check_anagram_s.c.o\x1b[0m\n'}
+[6.215775] (-) TimerEvent: {}
+[6.312192] (hw3_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libhw3_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.315884] (-) TimerEvent: {}
+[6.409848] (hw3_interfaces) StdoutLine: {'line': b'[ 82%] Built target hw3_interfaces__rosidl_generator_py\n'}
+[6.416048] (-) TimerEvent: {}
+[6.427281] (hw3_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.427584] (hw3_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.427698] (hw3_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.509855] (hw3_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.510135] (hw3_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.511094] (hw3_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.516172] (-) TimerEvent: {}
+[6.581152] (hw3_interfaces) StdoutLine: {'line': b'[100%] Built target hw3_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[6.581468] (hw3_interfaces) StdoutLine: {'line': b'[100%] Built target hw3_interfaces_s__rosidl_typesupport_c\n'}
+[6.581652] (hw3_interfaces) StdoutLine: {'line': b'[100%] Built target hw3_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[6.591753] (hw3_interfaces) CommandEnded: {'returncode': 0}
+[6.592647] (hw3_interfaces) JobProgress: {'identifier': 'hw3_interfaces', 'progress': 'install'}
+[6.600635] (hw3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/hw3_interfaces'], 'cwd': '/home/user/ros2_ws/build/hw3_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2246ba27-9001-46f8-8d9b-dcddd687626a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw3_interfaces', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[6.607433] (hw3_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.609332] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/rosidl_interfaces/hw3_interfaces\n'}
+[6.610273] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.json\n'}
+[6.610584] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.611527] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg\n'}
+[6.611915] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.612234] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.612510] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.612892] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__functions.c\n'}
+[6.613049] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.c\n'}
+[6.613210] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__description.c\n'}
+[6.613379] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__struct.h\n'}
+[6.613543] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.h\n'}
+[6.613722] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__functions.h\n'}
+[6.613877] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/check_anagram.h\n'}
+[6.614386] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.sh\n'}
+[6.614656] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.dsv\n'}
+[6.615165] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so\n'}
+[6.615579] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so" to ""\n'}
+[6.615774] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.615924] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg\n'}
+[6.616130] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.616285] (-) TimerEvent: {}
+[6.616373] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.616525] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.616618] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_fastrtps_c.h\n'}
+[6.616807] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.617078] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.617161] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.617218] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg\n'}
+[6.617381] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.617577] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.617638] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.617770] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_introspection_c.h\n'}
+[6.617828] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.c\n'}
+[6.617880] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.617928] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.617977] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so\n'}
+[6.618104] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[6.618259] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.618318] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg\n'}
+[6.618476] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.618604] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.618796] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/check_anagram.hpp\n'}
+[6.618946] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.619029] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__traits.hpp\n'}
+[6.619327] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.hpp\n'}
+[6.619514] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__builder.hpp\n'}
+[6.619577] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__struct.hpp\n'}
+[6.619730] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.619843] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg\n'}
+[6.619901] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.619959] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.620049] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.620107] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/dds_fastrtps\n'}
+[6.620213] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.620422] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.620792] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.620971] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces\n'}
+[6.621171] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv\n'}
+[6.621343] (hw3_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail\n'}
+[6.621527] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.621711] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/check_anagram__type_support.cpp\n'}
+[6.621897] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.622096] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.622187] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so\n'}
+[6.622374] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[6.622693] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.sh\n'}
+[6.622823] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.dsv\n'}
+[6.622893] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info\n'}
+[6.623881] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[6.624049] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[6.624197] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[6.624359] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[6.624539] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces\n'}
+[6.624955] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[6.625199] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.625431] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so\n'}
+[6.625670] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[6.625894] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.625956] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.626120] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv\n'}
+[6.626451] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram.py\n'}
+[6.626681] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram_s.c\n'}
+[6.626820] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py\n'}
+[6.626976] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py\n'}
+[6.660067] (hw3_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces'...\n"}
+[6.660425] (hw3_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py'...\n"}
+[6.660617] (hw3_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv'...\n"}
+[6.660714] (hw3_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py'...\n"}
+[6.660785] (hw3_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_check_anagram.py'...\n"}
+[6.664838] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.665442] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.665668] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[6.666040] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.666281] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so\n'}
+[6.666593] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[6.666871] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so\n'}
+[6.667147] (hw3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so" to ""\n'}
+[6.667390] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust\n'}
+[6.667719] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/build.rs\n'}
+[6.667916] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/Cargo.toml\n'}
+[6.668197] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src\n'}
+[6.668444] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv.rs\n'}
+[6.668730] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/lib.rs\n'}
+[6.668837] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv\n'}
+[6.669103] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/rust/src/srv/rmw.rs\n'}
+[6.669299] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.idl\n'}
+[6.669497] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/srv/CheckAnagram.srv\n'}
+[6.669951] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/package_run_dependencies/hw3_interfaces\n'}
+[6.670464] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/parent_prefix_path/hw3_interfaces\n'}
+[6.670727] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.sh\n'}
+[6.670948] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.671193] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.sh\n'}
+[6.671443] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.dsv\n'}
+[6.671726] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.bash\n'}
+[6.671790] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.sh\n'}
+[6.671881] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.zsh\n'}
+[6.672087] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.dsv\n'}
+[6.672145] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv\n'}
+[6.672583] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/ament_index/resource_index/packages/hw3_interfaces\n'}
+[6.673108] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.673305] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.673484] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.673668] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.673876] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.674053] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.674270] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.674519] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.674720] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.674870] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.674983] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.675148] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.675341] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.675514] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.675679] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.675849] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.676008] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.676194] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.676364] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.676590] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.676754] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.676942] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.677138] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.677307] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.677476] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[6.677650] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig.cmake\n'}
+[6.677811] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig-version.cmake\n'}
+[6.677976] (hw3_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/hw3_interfaces/share/hw3_interfaces/package.xml\n'}
+[6.680400] (hw3_interfaces) CommandEnded: {'returncode': 0}
+[6.706932] (hw3_interfaces) JobEnded: {'identifier': 'hw3_interfaces', 'rc': 0}
+[6.707968] (hw3_anagram) JobStarted: {'identifier': 'hw3_anagram'}
+[6.716428] (-) TimerEvent: {}
+[6.816775] (-) TimerEvent: {}
+[6.917106] (-) TimerEvent: {}
+[7.017426] (-) TimerEvent: {}
+[7.117805] (-) TimerEvent: {}
+[7.218139] (-) TimerEvent: {}
+[7.318517] (-) TimerEvent: {}
+[7.418834] (-) TimerEvent: {}
+[7.519117] (-) TimerEvent: {}
+[7.619420] (-) TimerEvent: {}
+[7.719833] (-) TimerEvent: {}
+[7.820425] (hw3_anagram) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/hw3_anagram', 'build', '--build-base', '/home/user/ros2_ws/build/hw3_anagram/build', 'install', '--record', '/home/user/ros2_ws/build/hw3_anagram/install.log', '--install-scripts', '$base/lib/hw3_anagram', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/hw3/hw3_anagram', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GIT_ASKPASS': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/user/ros2_ws/install/hw3_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros2_ws', 'TERM_PROGRAM_VERSION': '1.137.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2246ba27-9001-46f8-8d9b-dcddd687626a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/19781_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/JetBrains/CLion 2025.1.2/bin:/mnt/c/Users/user/AppData/Local/Programs/DockerDesktop/resources/bin:/mnt/d/Program Files/PostgreSQL/17/bin:/mnt/c/Users/user/AppData/Local/Python/bin:/mnt/c/Users/user/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c22ad74709.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/user/ros2_ws/build/hw3_anagram', 'COPILOT_DEBUG_NONCE': 'b734a63b712a94cd2f8425514e9802ce', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros2_ws/build/hw3_anagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/hw3_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[7.822048] (-) TimerEvent: {}
+[7.922360] (-) TimerEvent: {}
+[8.010468] (hw3_anagram) StdoutLine: {'line': b'running egg_info\n'}
+[8.010839] (hw3_anagram) StdoutLine: {'line': b'creating ../../../build/hw3_anagram/hw3_anagram.egg-info\n'}
+[8.022461] (-) TimerEvent: {}
+[8.024751] (hw3_anagram) StdoutLine: {'line': b'writing ../../../build/hw3_anagram/hw3_anagram.egg-info/PKG-INFO\n'}
+[8.025044] (hw3_anagram) StdoutLine: {'line': b'writing dependency_links to ../../../build/hw3_anagram/hw3_anagram.egg-info/dependency_links.txt\n'}
+[8.025337] (hw3_anagram) StdoutLine: {'line': b'writing entry points to ../../../build/hw3_anagram/hw3_anagram.egg-info/entry_points.txt\n'}
+[8.025759] (hw3_anagram) StdoutLine: {'line': b'writing requirements to ../../../build/hw3_anagram/hw3_anagram.egg-info/requires.txt\n'}
+[8.025931] (hw3_anagram) StdoutLine: {'line': b'writing top-level names to ../../../build/hw3_anagram/hw3_anagram.egg-info/top_level.txt\n'}
+[8.026126] (hw3_anagram) StdoutLine: {'line': b"writing manifest file '../../../build/hw3_anagram/hw3_anagram.egg-info/SOURCES.txt'\n"}
+[8.054032] (hw3_anagram) StdoutLine: {'line': b"reading manifest file '../../../build/hw3_anagram/hw3_anagram.egg-info/SOURCES.txt'\n"}
+[8.054565] (hw3_anagram) StdoutLine: {'line': b"writing manifest file '../../../build/hw3_anagram/hw3_anagram.egg-info/SOURCES.txt'\n"}
+[8.054915] (hw3_anagram) StdoutLine: {'line': b'running build\n'}
+[8.055092] (hw3_anagram) StdoutLine: {'line': b'running build_py\n'}
+[8.055193] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw3_anagram/build\n'}
+[8.055440] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw3_anagram/build/lib\n'}
+[8.055813] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram\n'}
+[8.056225] (hw3_anagram) StdoutLine: {'line': b'copying hw3_anagram/anagram_client.py -> /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram\n'}
+[8.056433] (hw3_anagram) StdoutLine: {'line': b'copying hw3_anagram/anagram_server.py -> /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram\n'}
+[8.056585] (hw3_anagram) StdoutLine: {'line': b'copying hw3_anagram/__init__.py -> /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram\n'}
+[8.056821] (hw3_anagram) StdoutLine: {'line': b'running install\n'}
+[8.061226] (hw3_anagram) StdoutLine: {'line': b'running install_lib\n'}
+[8.075142] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram\n'}
+[8.075506] (hw3_anagram) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram/anagram_client.py -> /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram\n'}
+[8.075851] (hw3_anagram) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram/anagram_server.py -> /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram\n'}
+[8.075964] (hw3_anagram) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/hw3_anagram/build/lib/hw3_anagram/__init__.py -> /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram\n'}
+[8.076193] (hw3_anagram) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram/anagram_client.py to anagram_client.cpython-312.pyc\n'}
+[8.077053] (hw3_anagram) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram/anagram_server.py to anagram_server.cpython-312.pyc\n'}
+[8.077487] (hw3_anagram) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram/__init__.py to __init__.cpython-312.pyc\n'}
+[8.077686] (hw3_anagram) StdoutLine: {'line': b'running install_data\n'}
+[8.077909] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw3_anagram/share/ament_index\n'}
+[8.078132] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw3_anagram/share/ament_index/resource_index\n'}
+[8.078578] (hw3_anagram) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/hw3_anagram/share/ament_index/resource_index/packages\n'}
+[8.078948] (hw3_anagram) StdoutLine: {'line': b'copying resource/hw3_anagram -> /home/user/ros2_ws/install/hw3_anagram/share/ament_index/resource_index/packages\n'}
+[8.079293] (hw3_anagram) StdoutLine: {'line': b'copying package.xml -> /home/user/ros2_ws/install/hw3_anagram/share/hw3_anagram\n'}
+[8.079568] (hw3_anagram) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.094209] (hw3_anagram) StdoutLine: {'line': b'Copying ../../../build/hw3_anagram/hw3_anagram.egg-info to /home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages/hw3_anagram-0.0.1-py3.12.egg-info\n'}
+[8.095650] (hw3_anagram) StdoutLine: {'line': b'running install_scripts\n'}
+[8.122627] (-) TimerEvent: {}
+[8.191401] (hw3_anagram) StdoutLine: {'line': b'Installing anagram_client script to /home/user/ros2_ws/install/hw3_anagram/lib/hw3_anagram\n'}
+[8.192298] (hw3_anagram) StdoutLine: {'line': b'Installing anagram_server script to /home/user/ros2_ws/install/hw3_anagram/lib/hw3_anagram\n'}
+[8.192583] (hw3_anagram) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/hw3_anagram/install.log'\n"}
+[8.215802] (hw3_anagram) CommandEnded: {'returncode': 0}
+[8.221931] (hw3_anagram) JobEnded: {'identifier': 'hw3_anagram', 'rc': 0}
+[8.222948] (-) TimerEvent: {}
+[8.223409] (-) EventReactorShutdown: {}

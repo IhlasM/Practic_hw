@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw4_interfaces -- -j16 -l16
+[0.208s] [  2%] Built target hw4_interfaces__rosidl_generator_type_description
+[0.210s] [  5%] Built target hw4_interfaces__rs
+[0.222s] [  5%] Built target ament_cmake_python_copy_hw4_interfaces
+[0.232s] [  8%] Built target hw4_interfaces__cpp
+[0.253s] [ 22%] Built target hw4_interfaces__rosidl_generator_c
+[0.305s] [ 31%] Built target hw4_interfaces__rosidl_typesupport_c
+[0.305s] [ 40%] Built target hw4_interfaces__rosidl_typesupport_introspection_cpp
+[0.305s] [ 48%] Built target hw4_interfaces__rosidl_typesupport_introspection_c
+[0.309s] [ 60%] Built target hw4_interfaces__rosidl_typesupport_cpp
+[0.309s] [ 65%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.313s] [ 74%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_c
+[0.334s] [ 74%] Built target hw4_interfaces
+[0.355s] [ 77%] Built target hw4_interfaces__py
+[0.386s] [ 82%] Built target hw4_interfaces__rosidl_generator_py
+[0.419s] [ 91%] Built target hw4_interfaces_s__rosidl_typesupport_c
+[0.419s] [ 94%] Built target hw4_interfaces_s__rosidl_typesupport_introspection_c
+[0.420s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.459s] running egg_info
+[0.476s] writing hw4_interfaces.egg-info/PKG-INFO
+[0.476s] writing dependency_links to hw4_interfaces.egg-info/dependency_links.txt
+[0.477s] writing top-level names to hw4_interfaces.egg-info/top_level.txt
+[0.530s] reading manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[0.531s] writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[0.564s] [100%] Built target ament_cmake_python_build_hw4_interfaces_egg

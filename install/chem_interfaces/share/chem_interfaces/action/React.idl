@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from chem_interfaces/action/React.action
+// generated code does not contain a copyright notice
+
+
+module chem_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal: две черепахи, вступившие в реакцию")
+    struct React_Goal {
+      sequence<string> turtles;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct React_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct React_Feedback {
+      @verbatim (language="comment", text=
+        "turn / move")
+      string stage;
+
+      @verbatim (language="comment", text=
+        "от 0.0 до 1.0")
+      float progress;
+    };
+  };
+};

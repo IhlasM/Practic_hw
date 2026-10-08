@@ -1,0 +1,22 @@
+[1.225s] Invoking command in '/home/user/ros2_ws/src/hw4/hw4_powers': PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data
+[1.464s] running egg_info
+[1.480s] writing ../../../build/hw4_powers/hw4_powers.egg-info/PKG-INFO
+[1.480s] writing dependency_links to ../../../build/hw4_powers/hw4_powers.egg-info/dependency_links.txt
+[1.481s] writing entry points to ../../../build/hw4_powers/hw4_powers.egg-info/entry_points.txt
+[1.481s] writing requirements to ../../../build/hw4_powers/hw4_powers.egg-info/requires.txt
+[1.481s] writing top-level names to ../../../build/hw4_powers/hw4_powers.egg-info/top_level.txt
+[1.514s] reading manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'
+[1.515s] writing manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'
+[1.516s] running build
+[1.516s] running build_py
+[1.517s] running install
+[1.524s] running install_lib
+[1.550s] running install_data
+[1.550s] running install_egg_info
+[1.569s] removing '/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers-0.0.1-py3.12.egg-info' (and everything under it)
+[1.569s] Copying ../../../build/hw4_powers/hw4_powers.egg-info to /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers-0.0.1-py3.12.egg-info
+[1.571s] running install_scripts
+[1.684s] Installing power_client script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers
+[1.684s] Installing power_server script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers
+[1.685s] writing list of installed files to '/home/user/ros2_ws/build/hw4_powers/install.log'
+[1.725s] Invoked command in '/home/user/ros2_ws/src/hw4/hw4_powers' returned '0': PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_anagram/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/user/ros2_ws/build/hw2_octal:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages:/home/user/ros2_ws/install/chem_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data

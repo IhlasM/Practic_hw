@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chem_interfaces/action/React_Feedback",
+      "fields": [
+        {
+          "name": "stage",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "progress",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "chem_interfaces/action/React_Feedback",
+      "hash_string": "RIHS01_b8bb8f08dee6a9589eac74c0bd7adaca5300aabfa46f5ccb100f84ab8669040a"
+    }
+  ]
+}

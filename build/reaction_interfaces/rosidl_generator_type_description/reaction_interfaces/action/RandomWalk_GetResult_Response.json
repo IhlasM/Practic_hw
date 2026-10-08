@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "reaction_interfaces/action/RandomWalk_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "reaction_interfaces/action/RandomWalk_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "reaction_interfaces/action/RandomWalk_Result",
+        "fields": [
+          {
+            "name": "completed",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "reaction_interfaces/action/RandomWalk_GetResult_Response",
+      "hash_string": "RIHS01_4d16ea73e0ff903705f180b54315f5427bbc1e3c08111c0213b8907fbfece2a8"
+    },
+    {
+      "type_name": "reaction_interfaces/action/RandomWalk_Result",
+      "hash_string": "RIHS01_d42fb17b913f8f3c15e58ed6bf57a17354854f5fb6ed9c12406d7a4fb1448fa2"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Goal: две черепахи, вступившие в реакцию
+string[] turtles
+---
+# Result
+bool success
+---
+# Feedback
+string stage        # turn / move
+float32 progress    # от 0.0 до 1.0

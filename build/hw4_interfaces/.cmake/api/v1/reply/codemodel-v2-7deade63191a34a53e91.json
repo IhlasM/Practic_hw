@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b58fb7c6128ff60d7179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "hw4_interfaces__py",
+					"jsonFile" : "directory-hw4_interfaces__py-693bcd0ac8564ef5d01f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "hw4_interfaces__rs",
+					"jsonFile" : "directory-hw4_interfaces__rs-7789fb3af167d837430f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/ros2_ws/build/hw4_interfaces/hw4_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "hw4_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hw4_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hw4_interfaces_egg-74b5ec43b39aedb23a9f.json",
+					"name" : "ament_cmake_python_build_hw4_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hw4_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hw4_interfaces-cebad6fdbebc420e754b.json",
+					"name" : "ament_cmake_python_copy_hw4_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces-21df74d8d4c827195b5e.json",
+					"name" : "hw4_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__cpp-e69eb0bc13c11ed13700.json",
+					"name" : "hw4_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hw4_interfaces__py::@cbff54653721f7565165",
+					"jsonFile" : "target-hw4_interfaces__py-6517557e3297144e47e0.json",
+					"name" : "hw4_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_generator_c-f0c0fec796397b1ea015.json",
+					"name" : "hw4_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_generator_py-5473fcc8ca9252f9c166.json",
+					"name" : "hw4_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_generator_type_description-95b0a631ce277f2a86f2.json",
+					"name" : "hw4_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_c-f5f09bb931a0542595f2.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_cpp-bf8923289922bfee1ba1.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_fastrtps_c-9dbcbc0a3a10b901ca5a.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_fastrtps_cpp-30b1d98e906f79ae09f0.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_introspection_c-a88d7d6d71c2c3d76c70.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces__rosidl_typesupport_introspection_cpp-d3bbce148fa568de5a51.json",
+					"name" : "hw4_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hw4_interfaces__rs::@7c6f88171b4a35fb7e30",
+					"jsonFile" : "target-hw4_interfaces__rs-dcd5f6e89e5dafff8a67.json",
+					"name" : "hw4_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces_s__rosidl_typesupport_c-8e79f4cf2c2c8eb0beda.json",
+					"name" : "hw4_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces_s__rosidl_typesupport_fastrtps_c-9e57396caaf9b26f5800.json",
+					"name" : "hw4_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces_s__rosidl_typesupport_introspection_c-5492c8ebde2a47241695.json",
+					"name" : "hw4_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4_interfaces_uninstall-23e0cc76ebcd3347a2f1.json",
+					"name" : "hw4_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32bd0361b46a45e9552f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/ros2_ws/build/hw4_interfaces",
+		"source" : "/home/user/ros2_ws/src/hw4/hw4_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

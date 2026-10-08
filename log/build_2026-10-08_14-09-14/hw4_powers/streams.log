@@ -1,0 +1,41 @@
+[1.152s] Invoking command in '/home/user/ros2_ws/src/hw4/hw4_powers': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data
+[1.374s] running egg_info
+[1.374s] creating ../../../build/hw4_powers/hw4_powers.egg-info
+[1.389s] writing ../../../build/hw4_powers/hw4_powers.egg-info/PKG-INFO
+[1.390s] writing dependency_links to ../../../build/hw4_powers/hw4_powers.egg-info/dependency_links.txt
+[1.390s] writing entry points to ../../../build/hw4_powers/hw4_powers.egg-info/entry_points.txt
+[1.390s] writing requirements to ../../../build/hw4_powers/hw4_powers.egg-info/requires.txt
+[1.390s] writing top-level names to ../../../build/hw4_powers/hw4_powers.egg-info/top_level.txt
+[1.390s] writing manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'
+[1.422s] reading manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'
+[1.423s] writing manifest file '../../../build/hw4_powers/hw4_powers.egg-info/SOURCES.txt'
+[1.423s] running build
+[1.424s] running build_py
+[1.424s] creating /home/user/ros2_ws/build/hw4_powers/build
+[1.424s] creating /home/user/ros2_ws/build/hw4_powers/build/lib
+[1.425s] creating /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers
+[1.425s] copying hw4_powers/power_server.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers
+[1.425s] copying hw4_powers/power_client.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers
+[1.425s] copying hw4_powers/__init__.py -> /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers
+[1.426s] running install
+[1.431s] running install_lib
+[1.446s] creating /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers
+[1.446s] copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/power_server.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers
+[1.447s] copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/power_client.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers
+[1.447s] copying /home/user/ros2_ws/build/hw4_powers/build/lib/hw4_powers/__init__.py -> /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers
+[1.447s] byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/power_server.py to power_server.cpython-312.pyc
+[1.448s] byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/power_client.py to power_client.cpython-312.pyc
+[1.448s] byte-compiling /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers/__init__.py to __init__.cpython-312.pyc
+[1.449s] running install_data
+[1.449s] creating /home/user/ros2_ws/install/hw4_powers/share/ament_index
+[1.449s] creating /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index
+[1.450s] creating /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index/packages
+[1.450s] copying resource/hw4_powers -> /home/user/ros2_ws/install/hw4_powers/share/ament_index/resource_index/packages
+[1.450s] copying package.xml -> /home/user/ros2_ws/install/hw4_powers/share/hw4_powers
+[1.451s] running install_egg_info
+[1.468s] Copying ../../../build/hw4_powers/hw4_powers.egg-info to /home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages/hw4_powers-0.0.1-py3.12.egg-info
+[1.469s] running install_scripts
+[1.569s] Installing power_client script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers
+[1.569s] Installing power_server script to /home/user/ros2_ws/install/hw4_powers/lib/hw4_powers
+[1.570s] writing list of installed files to '/home/user/ros2_ws/build/hw4_powers/install.log'
+[1.599s] Invoked command in '/home/user/ros2_ws/src/hw4/hw4_powers' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/build/hw4_powers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw4_powers/lib/python3.12/site-packages:/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hw4_powers build --build-base /home/user/ros2_ws/build/hw4_powers/build install --record /home/user/ros2_ws/build/hw4_powers/install.log --install-scripts $base/lib/hw4_powers --single-version-externally-managed install_data

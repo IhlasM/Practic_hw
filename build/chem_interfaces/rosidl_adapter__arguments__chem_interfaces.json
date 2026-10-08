@@ -1,0 +1,8 @@
+{
+  "package_name": "chem_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/project/chem_interfaces:msg/Collision.msg",
+    "/home/user/ros2_ws/src/project/chem_interfaces:srv/Explode.srv",
+    "/home/user/ros2_ws/src/project/chem_interfaces:action/React.action"
+  ]
+}

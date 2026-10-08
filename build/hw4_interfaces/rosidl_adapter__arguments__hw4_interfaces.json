@@ -1,0 +1,6 @@
+{
+  "package_name": "hw4_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/hw4/hw4_interfaces:action/PowerOfTwo.action"
+  ]
+}

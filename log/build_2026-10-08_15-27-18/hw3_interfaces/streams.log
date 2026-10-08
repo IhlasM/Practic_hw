@@ -1,0 +1,25 @@
+[0.030s] Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+[0.211s] [  2%] Built target hw3_interfaces__rosidl_generator_type_description
+[0.212s] [  5%] Built target hw3_interfaces__rs
+[0.223s] [  5%] Built target ament_cmake_python_copy_hw3_interfaces
+[0.236s] [  8%] Built target hw3_interfaces__cpp
+[0.256s] [ 22%] Built target hw3_interfaces__rosidl_generator_c
+[0.308s] [ 31%] Built target hw3_interfaces__rosidl_typesupport_introspection_c
+[0.308s] [ 40%] Built target hw3_interfaces__rosidl_typesupport_c
+[0.308s] [ 48%] Built target hw3_interfaces__rosidl_typesupport_cpp
+[0.309s] [ 57%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.313s] [ 65%] Built target hw3_interfaces__rosidl_typesupport_introspection_cpp
+[0.316s] [ 74%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_c
+[0.338s] [ 74%] Built target hw3_interfaces
+[0.358s] [ 77%] Built target hw3_interfaces__py
+[0.390s] [ 82%] Built target hw3_interfaces__rosidl_generator_py
+[0.423s] [ 88%] Built target hw3_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.423s] [ 94%] Built target hw3_interfaces_s__rosidl_typesupport_c
+[0.424s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_introspection_c
+[0.463s] running egg_info
+[0.478s] writing hw3_interfaces.egg-info/PKG-INFO
+[0.479s] writing dependency_links to hw3_interfaces.egg-info/dependency_links.txt
+[0.479s] writing top-level names to hw3_interfaces.egg-info/top_level.txt
+[0.526s] reading manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[0.527s] writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[0.565s] [100%] Built target ament_cmake_python_build_hw3_interfaces_egg

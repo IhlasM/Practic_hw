@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw3/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw3_interfaces
+Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw3/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw3_interfaces
+Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw3_interfaces -- -j16 -l16
+Invoking command in '/home/user/ros2_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces
+Invoked command in '/home/user/ros2_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw3_interfaces

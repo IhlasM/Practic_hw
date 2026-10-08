@@ -1,0 +1,244 @@
+[0.016s] Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw4/hw4_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw4_interfaces
+[0.250s] -- The C compiler identification is GNU 13.3.0
+[0.783s] -- The CXX compiler identification is GNU 13.3.0
+[1.230s] -- Detecting C compiler ABI info
+[1.446s] -- Detecting C compiler ABI info - done
+[1.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.453s] -- Detecting C compile features
+[1.454s] -- Detecting C compile features - done
+[1.525s] -- Detecting CXX compiler ABI info
+[1.739s] -- Detecting CXX compiler ABI info - done
+[1.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.747s] -- Detecting CXX compile features
+[1.747s] -- Detecting CXX compile features - done
+[1.762s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.885s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.998s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.240s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.248s] -- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+[2.801s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.638s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.751s] -- Found PythonExtra: /usr/bin/python3  
+[4.109s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.168s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.185s] -- Configuring done (4.1s)
+[4.243s] -- Generating done (0.1s)
+[4.256s] -- Build files have been written to: /home/user/ros2_ws/build/hw4_interfaces
+[4.267s] Invoked command in '/home/user/ros2_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/user/ros2_ws/src/hw4/hw4_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hw4_interfaces
+[4.268s] Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw4_interfaces -- -j16 -l16
+[4.313s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.313s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.321s] [  5%] Built target ament_cmake_python_copy_hw4_interfaces
+[4.483s] [  5%] Built target hw4_interfaces__rosidl_generator_type_description
+[4.492s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.500s] running egg_info
+[4.501s] creating hw4_interfaces.egg-info
+[4.502s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.517s] writing hw4_interfaces.egg-info/PKG-INFO
+[4.517s] writing dependency_links to hw4_interfaces.egg-info/dependency_links.txt
+[4.517s] writing top-level names to hw4_interfaces.egg-info/top_level.txt
+[4.517s] writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[4.528s] [ 11%] Built target hw4_interfaces__rs
+[4.564s] reading manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[4.564s] writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[4.588s] [ 11%] Built target ament_cmake_python_build_hw4_interfaces_egg
+[4.829s] [ 11%] Built target hw4_interfaces__cpp
+[4.846s] [ 17%] [32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__functions.c.o[0m
+[4.846s] [ 17%] [32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__description.c.o[0m
+[4.846s] [ 20%] [32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw4_interfaces/action/detail/power_of_two__type_support.c.o[0m
+[4.984s] [ 22%] [32m[1mLinking C shared library libhw4_interfaces__rosidl_generator_c.so[0m
+[5.082s] [ 22%] Built target hw4_interfaces__rosidl_generator_c
+[5.092s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.092s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.092s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.092s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.093s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.093s] [ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.318s] [ 42%] [32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw4_interfaces/action/power_of_two__type_support.cpp.o[0m
+[5.327s] [ 45%] [32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw4_interfaces/action/power_of_two__type_support.cpp.o[0m
+[5.376s] [ 48%] [32m[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_c.so[0m
+[5.391s] [ 51%] [32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw4_interfaces/action/detail/power_of_two__type_support.cpp.o[0m
+[5.431s] [ 54%] [32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw4_interfaces/action/detail/power_of_two__type_support.c.o[0m
+[5.479s] [ 57%] [32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw4_interfaces/action/detail/dds_fastrtps/power_of_two__type_support.cpp.o[0m
+[5.493s] [ 57%] Built target hw4_interfaces__rosidl_typesupport_c
+[5.499s] [ 60%] [32m[1mLinking C shared library libhw4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.546s] [ 62%] [32mBuilding CXX object CMakeFiles/hw4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw4_interfaces/action/detail/power_of_two__type_support_c.cpp.o[0m
+[5.596s] [ 62%] Built target hw4_interfaces__rosidl_typesupport_introspection_c
+[6.055s] [ 68%] [32m[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.056s] [ 68%] [32m[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_cpp.so[0m
+[6.132s] [ 71%] [32m[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.146s] [ 71%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_c
+[6.179s] [ 71%] Built target hw4_interfaces__rosidl_typesupport_cpp
+[6.276s] [ 71%] Built target hw4_interfaces__rosidl_typesupport_introspection_cpp
+[6.403s] [ 74%] [32m[1mLinking CXX shared library libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.536s] [ 74%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.556s] [ 74%] Built target hw4_interfaces
+[6.574s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.049s] [ 77%] Built target hw4_interfaces__py
+[7.068s] [ 80%] [32mBuilding C object CMakeFiles/hw4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw4_interfaces/action/_power_of_two_s.c.o[0m
+[7.275s] [ 82%] [32m[1mLinking C shared library libhw4_interfaces__rosidl_generator_py.so[0m
+[7.381s] [ 82%] Built target hw4_interfaces__rosidl_generator_py
+[7.399s] [ 91%] [32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.399s] [ 91%] [32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.400s] [ 91%] [32mBuilding C object CMakeFiles/hw4_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.508s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so[0m
+[7.508s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.508s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.587s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_c
+[7.587s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_introspection_c
+[7.587s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.601s] Invoked command in '/home/user/ros2_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/user/ros2_ws/build/hw4_interfaces -- -j16 -l16
+[7.613s] Invoking command in '/home/user/ros2_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw4_interfaces
+[7.620s] -- Install configuration: ""
+[7.622s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/rosidl_interfaces/hw4_interfaces
+[7.623s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.json
+[7.623s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.624s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.625s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.625s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.h
+[7.625s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__functions.h
+[7.625s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__struct.h
+[7.626s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__description.c
+[7.626s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__functions.c
+[7.626s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.c
+[7.626s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/power_of_two.h
+[7.626s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg
+[7.627s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.627s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/library_path.sh
+[7.628s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/library_path.dsv
+[7.628s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_c.so
+[7.629s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_c.so" to ""
+[7.629s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.629s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.629s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.629s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_fastrtps_c.h
+[7.629s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg
+[7.629s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.629s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.630s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.630s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.630s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.630s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.630s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_introspection_c.h
+[7.630s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.c
+[7.631s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg
+[7.631s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.631s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_c.so
+[7.631s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.631s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_c.so
+[7.631s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_c.so" to ""
+[7.632s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.632s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.632s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.632s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__struct.hpp
+[7.632s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__builder.hpp
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__traits.hpp
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.hpp
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/power_of_two.hpp
+[7.633s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.633s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.633s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.633s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/dds_fastrtps
+[7.633s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_fastrtps_cpp.hpp
+[7.634s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg
+[7.634s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.634s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.635s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.635s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces
+[7.635s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action
+[7.635s] -- Up-to-date: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail
+[7.635s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__type_support.cpp
+[7.635s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/include/hw4_interfaces/hw4_interfaces/action/detail/power_of_two__rosidl_typesupport_introspection_cpp.hpp
+[7.635s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.636s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.636s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_cpp.so
+[7.636s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.637s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/pythonpath.sh
+[7.637s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/pythonpath.dsv
+[7.637s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info
+[7.638s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[7.638s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[7.638s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[7.639s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[7.639s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces
+[7.639s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.639s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so
+[7.639s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.640s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action
+[7.640s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two_s.c
+[7.640s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two.py
+[7.640s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/__init__.py
+[7.641s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_c.c
+[7.641s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.641s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/_hw4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.641s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/__init__.py
+[7.682s] Listing '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces'...
+[7.683s] Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/__init__.py'...
+[7.683s] Listing '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action'...
+[7.683s] Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/__init__.py'...
+[7.683s] Compiling '/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/action/_power_of_two.py'...
+[7.688s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.688s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.688s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.689s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.689s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so
+[7.689s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/python3.12/site-packages/hw4_interfaces/hw4_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.689s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_py.so
+[7.690s] -- Set non-toolchain portion of runtime path of "/home/user/ros2_ws/install/hw4_interfaces/lib/libhw4_interfaces__rosidl_generator_py.so" to ""
+[7.690s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust
+[7.690s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/build.rs
+[7.690s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/Cargo.toml
+[7.691s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src
+[7.691s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action
+[7.692s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action/rmw.rs
+[7.692s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/lib.rs
+[7.692s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/rust/src/action.rs
+[7.692s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.idl
+[7.693s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/action/PowerOfTwo.action
+[7.693s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/package_run_dependencies/hw4_interfaces
+[7.693s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/parent_prefix_path/hw4_interfaces
+[7.693s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/ament_prefix_path.sh
+[7.693s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/ament_prefix_path.dsv
+[7.694s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/path.sh
+[7.694s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/environment/path.dsv
+[7.694s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.bash
+[7.694s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.sh
+[7.695s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.zsh
+[7.695s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/local_setup.dsv
+[7.695s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.dsv
+[7.695s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/ament_index/resource_index/packages/hw4_interfaces
+[7.696s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cExport.cmake
+[7.696s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.696s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.697s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.697s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.697s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.697s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cExport.cmake
+[7.697s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_cppExport.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cppExport.cmake
+[7.698s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.699s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_pyExport.cmake
+[7.699s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/export_hw4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.699s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.699s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.699s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.700s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfacesConfig.cmake
+[7.701s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/cmake/hw4_interfacesConfig-version.cmake
+[7.701s] -- Installing: /home/user/ros2_ws/install/hw4_interfaces/share/hw4_interfaces/package.xml
+[7.703s] Invoked command in '/home/user/ros2_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/user/ros2_ws/build/hw4_interfaces

@@ -1,0 +1,3 @@
+/home/user/ros2_ws/build/chem_interfaces/rosidl_adapter/chem_interfaces:msg/Collision.idl
+/home/user/ros2_ws/build/chem_interfaces/rosidl_adapter/chem_interfaces:srv/Explode.idl
+/home/user/ros2_ws/build/chem_interfaces/rosidl_adapter/chem_interfaces:action/React.idl

@@ -1,0 +1,33 @@
+running egg_info
+creating ../../../build/chem_reaction/chem_reaction.egg-info
+writing ../../../build/chem_reaction/chem_reaction.egg-info/PKG-INFO
+writing dependency_links to ../../../build/chem_reaction/chem_reaction.egg-info/dependency_links.txt
+writing requirements to ../../../build/chem_reaction/chem_reaction.egg-info/requires.txt
+writing top-level names to ../../../build/chem_reaction/chem_reaction.egg-info/top_level.txt
+writing manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+reading manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+writing manifest file '../../../build/chem_reaction/chem_reaction.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/build/chem_reaction/build
+creating /home/user/ros2_ws/build/chem_reaction/build/lib
+creating /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+copying chem_reaction/logic.py -> /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+copying chem_reaction/__init__.py -> /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction
+running install
+running install_lib
+creating /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+copying /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction/logic.py -> /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+copying /home/user/ros2_ws/build/chem_reaction/build/lib/chem_reaction/__init__.py -> /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction
+byte-compiling /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction/logic.py to logic.cpython-312.pyc
+byte-compiling /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/user/ros2_ws/install/chem_reaction/share/ament_index
+creating /home/user/ros2_ws/install/chem_reaction/share/ament_index/resource_index
+creating /home/user/ros2_ws/install/chem_reaction/share/ament_index/resource_index/packages
+copying resource/chem_reaction -> /home/user/ros2_ws/install/chem_reaction/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/chem_reaction/share/chem_reaction
+running install_egg_info
+Copying ../../../build/chem_reaction/chem_reaction.egg-info to /home/user/ros2_ws/install/chem_reaction/lib/python3.12/site-packages/chem_reaction-0.0.1-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/user/ros2_ws/build/chem_reaction/install.log'

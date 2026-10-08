@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chem_interfaces__py",
+		"source" : "/home/user/ros2_ws/build/chem_interfaces/chem_interfaces__py"
+	}
+}

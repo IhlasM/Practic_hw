@@ -1,0 +1,18 @@
+[1.155s] Invoking command in '/home/user/ros2_ws/build/hw2_octal': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/hw2_octal/build --no-deps symlink_data
+[1.404s] running develop
+[1.552s] running egg_info
+[1.566s] writing hw2_octal.egg-info/PKG-INFO
+[1.567s] writing dependency_links to hw2_octal.egg-info/dependency_links.txt
+[1.567s] writing entry points to hw2_octal.egg-info/entry_points.txt
+[1.567s] writing requirements to hw2_octal.egg-info/requires.txt
+[1.568s] writing top-level names to hw2_octal.egg-info/top_level.txt
+[1.597s] reading manifest file 'hw2_octal.egg-info/SOURCES.txt'
+[1.598s] writing manifest file 'hw2_octal.egg-info/SOURCES.txt'
+[1.613s] running build_ext
+[1.616s] Creating /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2-octal.egg-link (link to .)
+[1.616s] Installing number_publisher script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+[1.617s] Installing octal_converter script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+[1.617s] 
+[1.617s] Installed /home/user/ros2_ws/build/hw2_octal
+[1.617s] running symlink_data
+[1.649s] Invoked command in '/home/user/ros2_ws/build/hw2_octal' returned '0': PYTHONPATH=/home/user/ros2_ws/build/hw2_octal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/hw2_octal/build --no-deps symlink_data

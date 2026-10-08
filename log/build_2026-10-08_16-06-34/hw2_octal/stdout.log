@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing hw2_octal.egg-info/PKG-INFO
+writing dependency_links to hw2_octal.egg-info/dependency_links.txt
+writing entry points to hw2_octal.egg-info/entry_points.txt
+writing requirements to hw2_octal.egg-info/requires.txt
+writing top-level names to hw2_octal.egg-info/top_level.txt
+reading manifest file 'hw2_octal.egg-info/SOURCES.txt'
+writing manifest file 'hw2_octal.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/hw2_octal/lib/python3.12/site-packages/hw2-octal.egg-link (link to .)
+Installing number_publisher script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+Installing octal_converter script to /home/user/ros2_ws/install/hw2_octal/lib/hw2_octal
+
+Installed /home/user/ros2_ws/build/hw2_octal
+running symlink_data

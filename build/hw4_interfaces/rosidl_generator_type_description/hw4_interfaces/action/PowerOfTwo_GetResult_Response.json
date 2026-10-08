@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/PowerOfTwo_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "hw4_interfaces/action/PowerOfTwo_Result",
+        "fields": [
+          {
+            "name": "powers",
+            "type": {
+              "type_id": 152,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_GetResult_Response",
+      "hash_string": "RIHS01_3cfc2d5730ab6b611562d5cb9a10e149eb77cda7df33498d6c563f24a93c1e5b"
+    },
+    {
+      "type_name": "hw4_interfaces/action/PowerOfTwo_Result",
+      "hash_string": "RIHS01_c181480858937a53e62ee8a7a5e2b9961a270f4dbe14da8eb6c9c5e7d853d8e7"
+    }
+  ]
+}

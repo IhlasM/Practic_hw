@@ -1,0 +1,8 @@
+float32 duration
+---
+bool completed
+uint32 reactions
+string message
+---
+float32 elapsed
+uint32 reactions
